@@ -1,21 +1,16 @@
 import { useState } from "react";
-import Header from "./components/navbar";
-import Main1 from "./components/Main1";
-import Main3 from "./components/Main3";
-import Main4 from "./components/Main4";
-import Main5 from "./components/Main5";
-import Footer from "./components/footer";
-
+import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import Projects from "./pages/projects";
 function App() {
   return (
-    <>
-      <Header />
-      <Main1 />
-      <Main3 />
-      <Main4 />
-      <Main5 />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route element={<Home />} path="/" />
+        <Route element={<Projects />} path="/projects" />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Main1 = () => {
   return (
@@ -10,9 +11,11 @@ const Main1 = () => {
           and <span className="font-bold">designs</span> intertwining <br />
           <span className="font-bold">Psychology</span> that resonate with users
         </p>
-        <button className="font-play mt-32 lg:px-24 lg:py-4 border-2 border-white text-white bg-transparent  text-3xl hover:bg-white hover:text-black transition-colors duration-300">
-          View Projects
-        </button>
+        <Link to="/projects">
+          <button className="font-play mt-32 lg:px-24 lg:py-4 border-2 border-white text-white bg-transparent  text-3xl hover:bg-white hover:text-black transition-colors duration-300">
+            View Projects
+          </button>
+        </Link>
       </div>
     </div>
   );
