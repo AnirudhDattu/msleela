@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import bookshelf from "../assets/bookshelf.png";
 import mind from "../assets/myndsync.png";
 
@@ -27,9 +28,11 @@ const Main5 = () => {
             <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.25em] text-center">
               An E-commerce web design for books
             </p>
-            <button className="px-16 py-2 mt-8 bg-[#151515] text-white border font-play border-white rounded-lg text-lg ">
-              View
-            </button>
+            <Link to="/Bookshelf">
+              <button className="px-16 py-2 mt-8 bg-[#151515] text-white border font-play border-white rounded-lg text-lg ">
+                View
+              </button>
+            </Link>
           </div>
         </div>
       </div>
