@@ -526,9 +526,167 @@ const Book2 = () => {
           </div>
         </div>
         {/* -----------------------------------------------------------------------------------------------------------------------------------------------     */}
+        <div className="ml-32 mt-20 mr-28">
+          <div className="relative flex items-center py-4  ">
+            {/* Small rectangle */}
+            <div
+              className="w-[9px] h-[59px] bg-[#C19162]"
+              style={{ position: "relative" }}
+            ></div>
+
+            {/* Text beside the rectangle */}
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              Challenges & Learnings
+            </p>
+          </div>
+          <div className="">
+            <p className="text-white ml-16 mr-36 tracking-widest">
+              One challenge was maintaining a consistent aesthetic while
+              ensuring usability across all devices. The rich, dark colors
+              required careful contrast management to ensure readability without
+              losing the vintage charm. Another challenge was finding a balance
+              between creative freedom (like the fantasy-driven "mystery box")
+              and keeping the design practical for e-commerce.
+            </p>
+            <div>
+              <p className="text-2xl font-semibold font-play text-white ml-20 mt-10  tracking-wider">
+                Results & Learnings
+              </p>
+              <ul className="list-disc list-outside pl-5  ml-24 mt-8 mr-10 tracking-widest">
+                <li className="text-white">
+                  <strong>Improved Engagement:</strong> The gamified elements
+                  like the top reader picks and mystery box increased engagement
+                  by X%
+                </li>
+                <li className="text-white">
+                  <strong>Seamless Navigation:</strong>
+                  Users reported that the mood-based filters and genre
+                  categorization made book discovery easier.
+                </li>
+                <li className="text-white">
+                  <strong>Consistent Branding:</strong> The royal vintage
+                  aesthetic received positive feedback for its uniqueness and
+                  cohesiveness throughout the site.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-2xl font-semibold font-play text-white ml-20 mt-10  tracking-wider">
+                Next Steps
+              </p>
+              <ul className="list-disc list-outside pl-5  ml-24 mt-8 mr-10 tracking-widest">
+                <li className="text-white">
+                  <strong>Testing & Iteration:</strong>
+                  Conduct more A/B testing to refine certain features like the
+                  checkout process and product recommendations.
+                </li>
+                <li className="text-white">
+                  <strong>Feature Expansion:</strong>
+                  Implement user profiles where users can track their reading
+                  history and unlock more mystery boxes based on purchases.
+                </li>
+              </ul>
+            </div>
+            <p className="text-white ml-16 mr-36 mt-10 tracking-widest ">
+              The Bookshelf is more than just a bookstore—it’s a fully immersive
+              experience for book lovers. By blending a vintage, luxurious
+              aesthetic with thoughtful user-centered features, the site not
+              only attracts readers but also keeps them engaged. My goal was to
+              create a platform that is functional, visually appealing, and
+              emotionally engaging, and I’m proud to see that reflected in the
+              final product.
+            </p>
+          </div>
+          {/* <div className="absolute w-[499.01px] h-0 left-1/2 transform -translate-x-[250px]  border border-white/70 blur-[3px]"></div> */}
+        </div>
+        {/* =========================================================================================================================== */}
+        <div className="bg-black mt-28 pb-20">
+          <div className="bg-black py-10 text-center mb-10">
+            <p className="text-white text-xl font-bold font-play sm:text-3xl tracking-[0.25em]">
+              More Like This
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 justify-center mx-auto max-w-screen-lg">
+            {/* First Card */}
+            <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+              {/* Top Image */}
+              <div className="flex  justify-center">
+                <img
+                  src={bksm}
+                  alt="Top Image"
+                  className="w-[300px] h-58 object-cover " // Adjusted to make it larger
+                />
+              </div>
+
+              {/* Middle Image */}
+              <div className="flex  justify-center">
+                <img
+                  src={book}
+                  alt="Middle Image"
+                  className="w-[250px] h-30 object-cover mt-8" // Adjusted to match the height
+                />
+              </div>
+
+              {/* Text Section */}
+              <div className=" text-sm sm:text-base lg:text-lg text-center font-play text-[#EBD1FF]">
+                <p>
+                  E-Commerce, UX Research, Psychology, UI Web Design, Responsive
+                  Design
+                </p>
+              </div>
+
+              {/* Button Section */}
+              <div className="mt-6 text-center">
+                <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
+                  UX Research
+                </button>
+              </div>
+            </div>
+
+            {/* Second Card */}
+            <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+              {/* Top Image */}
+              <div className="flex  justify-center">
+                <img
+                  src={jl}
+                  alt="Top Image"
+                  className="w-[400px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
+                />
+              </div>
+
+              {/* Middle Image */}
+              <div className="flex  justify-center">
+                <img
+                  src={tmls}
+                  alt="Middle Image"
+                  className="w-[200px] h-30 object-cover mt-8" // Adjusted to match the height
+                />
+              </div>
+
+              {/* Text Section */}
+              <div className="mt-2 text-sm text-center sm:text-base lg:text-lg font-play text-[#EBD1FF]">
+                <p>
+                  E-Commerce, UX Research, UI Web Design, Branding, Color Guide
+                </p>
+              </div>
+
+              {/* Button Section */}
+              <div className="mt-6 text-center">
+                <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
+                  UX Research
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* =---------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
       </div>
     </div>
   );
 };
+import bksm from "../assets/booksm.png";
+import book from "../assets/bkshlf.png";
+import jl from "../assets/jule.png";
+import tmls from "../assets/timeless.png";
 
 export default Book2;
