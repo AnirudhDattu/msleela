@@ -2,33 +2,15 @@ import React from "react";
 import bookimg from "../assets/book2.png";
 import thebook from "../assets/thebook.png";
 import L1 from "../assets/lap1.png";
+import g1 from "../assets/g1.png";
+import g2 from "../assets/g2.png";
+import g3 from "../assets/g3.png";
+import g4 from "../assets/g4.png";
+import up1 from "../assets/up1.png";
+import up2 from "../assets/up2.png";
+import up3 from "../assets/up3.png";
 
-const data = {
-  SAYS: [
-    "“I love finding new books, but it’s overwhelming with so many choices.”",
-    "“I wish I could find books based on my mood—sometimes I want something uplifting, other times more reflective.”",
-    "“I want a book community where I can feel recognized and share my favorites.”",
-  ],
-  THINKS: [
-    "“What if I buy a book and don’t like it? I want recommendations I can trust.”",
-    "“It would be great to get rewards or special features for buying more frequently.”",
-    "“Price is important, but so is the reading experience.”",
-  ],
-  DOES: [
-    "Spends hours browsing different websites, often unsure which books to pick.",
-    "Checks reviews before purchasing but is still uncertain about new authors.",
-    "Looks for discounts but sometimes buys full-price books if they seem worth it.",
-  ],
-  FEELS: [
-    "Overwhelmed by choice and lack of personalized recommendations.",
-    "Frustrated with poor book discovery features on existing sites.",
-    "Excited when a website offers an immersive or community-based experience.",
-  ],
-};
-
-const colors = ["#709F9D", "#BF81F0", "#C19162", "#5E98FE"];
-
-const Book2 = () => {
+const Ms3 = () => {
   return (
     <div className="bg-black">
       <div className="">
@@ -41,44 +23,43 @@ const Book2 = () => {
 
           {/* Text beside the rectangle */}
           <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
-            Introduction
+            Purpose & Goal
           </p>
         </div>
         <div className="ml-32">
           <p className="text-white ml-16 mr-36 tracking-wider">
-            The Bookshelf is an e-commerce platform designed specifically for
-            book lovers. My goal was to create a unique shopping experience that
-            blends a royal dark vintage aesthetic with intuitive, user-centered
-            functionality. Drawing from personal experiences with other book
-            websites, I envisioned a platform that not only sells books but also
-            cultivates a sense of mystery and excitement for readers. Below,
-            I’ll walk through the design process, key decisions, and strategies
-            used to create this experience.
+            The app's primary goal is to provide users with the tools to connect
+            with their thoughts and emotions, fostering mindfulness and
+            self-awareness. MindSync aims to create an environment where users
+            can practice cognitive meditation in a way that resonates with their
+            unique needs, while also offering a supportive community to share
+            experiences and seek guidance. Ultimately, as the name of the
+            application depicts, the MindSync UI/UX design aims to synchronize
+            users' minds with their cognitive senses, empower users with an
+            enriching and transformative experience, helping them cultivate
+            emotional resilience, improve cognitive habits, and lead more
+            balanced and fulfilling lives.
           </p>
         </div>
+        {/* ================================================================================================== */}
         <div className="ml-32 mt-10">
           <h1 className="text-white tracking-wider text-xl font-semibold font-play ml-16">
             Project Overview
           </h1>
           <ul className="list-disc list-outside pl-5  ml-20 mt-8">
             <li className="text-white">
-              <strong>Role:</strong> UI/UX Designer
+              <strong>Role:</strong>Lead UI/UX Designer
             </li>
             <li className="text-white">
-              <strong>Duration:</strong> 1 week
+              <strong>Duration:</strong> 1 month
             </li>
             <li className="text-white">
-              <strong>Tools Used:</strong> Figma, FigJam, Miro
-            </li>
-            <li className="text-white mr-36">
-              <strong>Objective:</strong> To create a visually striking,
-              intuitive, and engaging e-commerce platform for book lovers,
-              combining modern design principles with strategic gamification
-              elements to boost user engagement and sales.
+              <strong>Tools Used:</strong> Figma, FigJam
             </li>
           </ul>
         </div>
-        <div className="ml-32 mt-28 h-screen">
+        {/* ========================================================================================== */}
+        <div className="ml-32 mt-14 ">
           <div className="relative flex items-center py-4  ">
             {/* Small rectangle */}
             <div
@@ -91,22 +72,20 @@ const Book2 = () => {
               Design Process
             </p>
           </div>
-          <img
-            src={bookimg}
-            alt="Book"
-            className="w-full max-w-[750px] h-auto object-cover ml-52 mt-28"
-          />
-          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider mt-28">
-            🔍 Research & user needs
+          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider mt-9">
+            🔍 Discover
+            <br />
+            📝 Research & user needs
+            <br />
+            💡 Ideation
             <br />
             🏗️ Architecture and UX
             <br />
-            🎨 Design concept
-            <br />
-            💻 Wireframes & Visual UI Design
+            🎨 Design
+            <br /> 💻 Prototype
           </p>
         </div>
-        <div className="ml-32 mt-32 mr-28">
+        <div className="ml-32 mt-16 mr-28">
           <div className="relative flex items-center py-4  ">
             {/* Small rectangle */}
             <div
@@ -119,182 +98,141 @@ const Book2 = () => {
               Research and Insights
             </p>
           </div>
-          <div className="">
+          <div className="bg-black">
             <p className="text-white ml-16 mr-36 tracking-widest">
-              To better understand user needs and preferences, I conducted
-              interviews with 10 avid readers who frequently shop for books
-              online. The findings helped inform key design decisions.
+              I conducted an online survey to gather user insights on mental
+              health challenges, meditation habits, and preferences. Some sample
+              questions are as follows:
             </p>
             <div>
-              <p className="text-2xl font-semibold font-play text-white ml-20 mt-10  tracking-wider">
-                Key Findings & Patterns:
-              </p>
-              <ul className="list-disc list-outside pl-5  ml-20 mt-8 mr-10 tracking-widest">
+              <ul className="list-decimal list-outside pl-5  ml-20 mt-5 mr-10 tracking-widest">
                 <li className="text-white">
-                  <strong>Overwhelming Choice:</strong> Users felt overwhelmed
-                  by too many book options on existing sites and found it
-                  difficult to choose.
+                  “What mental wellness challenged do you face most frequently”
+                </li>
+                <li className="text-white">“How often do you meditate”</li>
+                <li className="text-white">
+                  “What type of meditation do you prefer”
                 </li>
                 <li className="text-white">
-                  <strong>Desire for Personalization:</strong> Many users
-                  mentioned wanting recommendations based on their reading
-                  habits, moods, and favorite genres.
-                </li>
-                <li className="text-white">
-                  <strong>Community Feel:</strong> Readers loved the idea of
-                  sharing their favorite books and being part of a community,
-                  but found that current e-commerce platforms lacked this
-                  feature.
-                </li>
-                <li className="text-white">
-                  <strong>Mood-Based Filtering: </strong>Users expressed
-                  excitement about filtering books based on their mood, as they
-                  often felt a mismatch between their emotional state and the
-                  books they were currently reading.
+                  “Are you familiar with cognitive techniques”
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="mt-32 ml-32 h-screen bg-black overflow-auto">
-          <div className="flex items-center py-4">
-            {/* Small rectangle */}
-            <div className="w-[9px] h-[59px] bg-[#C19162]"></div>
 
-            {/* Text beside the rectangle */}
-            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
-              Empathy Mapping
-            </p>
-          </div>
-          <div className="text-sm p-5 md:p-10 font-play">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              {Object.entries(data).map(([category, texts], index) => (
-                <div key={category}>
-                  <h2 className="text-2xl font-semibold font-play text-white ml-14 tracking-wider mb-5">
-                    {category}
-                  </h2>
-                  {texts.map((text, i) => (
-                    <div
-                      key={i}
-                      className="px-5 py-5 mb-3"
-                      style={{
-                        width: "175px",
-                        height: "160px",
-                        marginLeft: i === 1 ? "10px" : "0", // Offset for the second box only
-                        backgroundColor: colors[index % colors.length], // Dynamic background color based on column
-                      }}
-                    >
-                      <p>{text}</p>
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
         {/* ------------------------------------------------------------next---------------------------------------------------------- */}
-        <div className="">
-          <div className="ml-32 mt-10 font-play">
-            <div>
-              <h1 className="text-white tracking-wider text-lg font-semibold font-play ml-16">
-                👤 User goals
-              </h1>
-              <ul className="list-disc list-outside pl-5  ml-20 mt-4 tracking-widest">
-                <li className="text-white">
-                  Quickly find books that match their interests and mood.
-                </li>
-                <li className="text-white">
-                  Recommendations and features tailored to their preferences.
-                </li>
-                <li className="text-white">
-                  An interactive and rewarding experience.
-                </li>
-                <li className="text-white">
-                  A well-designed, aesthetically pleasing interface
-                </li>
-                <li className="text-white">
-                  Clear and comprehensive details about books.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h1 className="text-white tracking-wider text-lg font-semibold font-play ml-16 mt-12">
-                💼 Business goals
-              </h1>
-              <ul className="list-disc list-outside pl-5  ml-20 mt-4 tracking-widest">
-                <li className="text-white">
-                  Quickly find books that match their interests and mood.
-                </li>
-                <li className="text-white">
-                  Recommendations and features tailored to their preferences.
-                </li>
-                <li className="text-white">
-                  An interactive and rewarding experience.
-                </li>
-                <li className="text-white">
-                  A well-designed, aesthetically pleasing interface
-                </li>
-                <li className="text-white">
-                  Clear and comprehensive details about books.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h1 className="text-white tracking-wider text-lg font-semibold font-play ml-16 mt-12">
-                🤝 Common goals
-              </h1>
-              <ul className="list-disc list-outside pl-5  ml-20 mt-4 tracking-widest">
-                <li className="text-white">
-                  Quickly find books that match their interests and mood.
-                </li>
-                <li className="text-white">
-                  Recommendations and features tailored to their preferences.
-                </li>
-                <li className="text-white">
-                  An interactive and rewarding experience.
-                </li>
-                <li className="text-white">
-                  A well-designed, aesthetically pleasing interface
-                </li>
-                <li className="text-white">
-                  Clear and comprehensive details about books.
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div className=" mx-32 mt-10 grid grid-cols-2 gap-1 md:grid-cols-2 lg:grid-cols-4">
+          <img
+            src={g1}
+            alt="Image 1"
+            className="w-full h-72 object-contain hidden md:block"
+          />
+          <img
+            src={g2}
+            alt="Image 2"
+            className="w-full h-72 object-contain hidden md:block"
+          />
+          <img
+            src={g3}
+            alt="Image 3"
+            className="w-full h-72 object-contain hidden md:block"
+          />
+          <img
+            src={g4}
+            alt="Image 4"
+            className="w-full h-72 object-contain hidden md:block"
+          />
         </div>
+
         {/* --------------------------------------------------------------next------------------------------------------------------------ */}
-        <div className="ml-32 mr-44">
-          <div className="mr-52">
-            <p className="text-2xl font-semibold font-play text-white ml-20 mt-10  tracking-wider">
-              Feature Priorities
+        <div className="ml-32 mr-44 mt-20">
+          <div className="">
+            <p className="text-2xl font-semibold font-play text-white ml-16  mt-10  tracking-wide">
+              Key Findings & Patterns:
             </p>
-            <ul className="list-disc list-outside pl-5  ml-20 mt-8 tracking-widest ">
-              <li className="text-white mb-5">
-                Allow users to search for books based on their current mood to
-                simplify the discovery process and increase engagement.
+            <ul className="list-disc list-outside pl-5  ml-20 mt-8 tracking-[0.12em] ">
+              <li className="text-white ">
+                Mental Wellness Challenges: Stress and anxiety are the most
+                common challenges reported, emphasizing the need for effective
+                coping mechanisms.
               </li>
-              <li className="text-white mb-5">
-                Tailor suggestions based on user preferences and browsing
-                history to enhance relevance and user satisfaction
+              <li className="text-white ">
+                Meditation Frequency: A significant portion of respondents say
+                that they don’t have a schedule and meditate whenever they feel
+                like it, indicating us the need for an application.
               </li>
-              <li className="text-white mb-5">
-                Ensure that users can easily browse and locate books with a
-                straightforward, user-friendly interface.
+              <li className="text-white ">
+                Preference for Meditation Type: Mindfulness and breathing
+                exercises are popular, suggesting users appreciate both calming
+                and focused practices.
               </li>
-              <li className="text-white mb-5">
-                Maintain a cohesive visual style that aligns with the vintage
-                theme to create a pleasant and immersive experience.
+              <li className="text-white ">
+                Interest in Cognitive Aspects: Many respondents express their
+                confused knowledge about cognitive techniques
               </li>
-              <li className="text-white mb-5">
-                Incorporate engaging features such as the mystery box and top
-                reader picks to enhance the user experience and encourage
-                exploration.
+              <li className="text-white ">
+                Personalization Importance: Personalized content based on
+                emotional state is highly valued by respondents.
+              </li>
+              <li className="text-white ">
+                Engaging Cognitive Techniques: Many of the respondents say that
+                they occasionally or haven’t integrated cognitive techniques
+                into their meditation.
+              </li>
+              <li className="text-white ">
+                Community Engagement: A substantial number of users are likely
+                to engage with a community platform for sharing insights and
+                experiences.
+              </li>
+              <li className="text-white ">
+                Valuable App Aspects: Respondents find guided cognitive
+                meditation sessions, personalized insights, and cognitive
+                techniques for emotional regulation to be particularly valuable
+                in a meditation app.
               </li>
             </ul>
           </div>
         </div>
         {/* ------------------------------------------------------------------------next------------------------------------------------------- */}
+        <div className="mx-32 hidden md:block">
+          <div className="relative flex items-center py-4  ">
+            <p className="text-2xl my-20 font-semibold font-play text-white ml-14 tracking-widest">
+              User Persona
+            </p>
+          </div>
+          <div className=" grid grid-cols-1 gap-6 lg:grid-cols-2 mx-20">
+            <img
+              src={up1}
+              alt="Image 1"
+              className="w-auto h-full object-contain hidden md:block"
+            />
+            <img
+              src={up2}
+              alt="Image 2"
+              className="w-auto h-full object-contain hidden md:block"
+            />
+          </div>
+        </div>
+        {/* =========================================================================================================================== */}
+
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
+          <img
+            src={up3}
+            alt="Responsive Image"
+            className="w-auto max-w-xs md:max-w-sm object-contain md:w-1/2 md:ml-4 md:mr-8"
+          />
+          <div className="text-content md:w-1/2 text-white">
+            <h2 className="text-2xl font-bold mb-4">Responsive Text Section</h2>
+            <p className="text-base leading-6">
+              This is an example of a responsive layout where the image is on
+              the left and the text is on the right on larger screens, but the
+              content stacks vertically on mobile screens.
+            </p>
+          </div>
+        </div>
+
+        {/* =========================================================================================================================== */}
         <div className="ml-32 mt-32 mr-28">
           <div className="relative flex items-center py-4  ">
             {/* Small rectangle */}
@@ -689,4 +627,4 @@ import book from "../assets/bkshlf.png";
 import jl from "../assets/jule.png";
 import tmls from "../assets/timeless.png";
 
-export default Book2;
+export default Ms3;

@@ -3,6 +3,7 @@ import bksm from "../assets/booksm.png";
 import book from "../assets/bkshlf.png";
 import jl from "../assets/jule.png";
 import tmls from "../assets/timeless.png";
+import { Link } from "react-router-dom";
 
 const Webdes = () => {
   return (
@@ -48,9 +49,11 @@ const Webdes = () => {
 
           {/* Button Section */}
           <div className="mt-6 text-center">
-            <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-              UX Research
-            </button>
+            <Link to="/Bookshelf">
+              <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
+                UX Research
+              </button>
+            </Link>
           </div>
         </div>
 

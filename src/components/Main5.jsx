@@ -46,9 +46,11 @@ const Main5 = () => {
             <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.25em] text-center">
               A mental wellness mobile application design
             </p>
-            <button className="px-16 py-2 mt-8 bg-[#151515] text-white border font-play border-white rounded-lg text-lg ">
-              View
-            </button>
+            <Link to="/Mindsync">
+              <button className="px-16 py-2 mt-8 bg-[#151515] text-white border font-play border-white rounded-lg text-lg ">
+                View
+              </button>
+            </Link>
           </div>
         </div>
 
