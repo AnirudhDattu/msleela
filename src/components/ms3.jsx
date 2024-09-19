@@ -1,7 +1,4 @@
 import React from "react";
-import bookimg from "../assets/book2.png";
-import thebook from "../assets/thebook.png";
-import L1 from "../assets/lap1.png";
 import g1 from "../assets/g1.png";
 import g2 from "../assets/g2.png";
 import g3 from "../assets/g3.png";
@@ -9,6 +6,10 @@ import g4 from "../assets/g4.png";
 import up1 from "../assets/up1.png";
 import up2 from "../assets/up2.png";
 import up3 from "../assets/up3.png";
+import up4 from "../assets/msphone.png";
+import msf from "../assets/msfea.png";
+import ms3 from "../assets/ms3.png";
+import ifa from "../assets/ifa.png";
 
 const Ms3 = () => {
   return (
@@ -216,24 +217,132 @@ const Ms3 = () => {
         </div>
         {/* =========================================================================================================================== */}
 
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
+        <div className=" my-20 flex flex-col md:flex-row items-center md:justify-center md:items-center gap-8 max-w-screen-lg mx-auto p-4 md:px-8">
           <img
             src={up3}
             alt="Responsive Image"
             className="w-auto max-w-xs md:max-w-sm object-contain md:w-1/2 md:ml-4 md:mr-8"
           />
-          <div className="text-content md:w-1/2 text-white">
-            <h2 className="text-2xl font-bold mb-4">Responsive Text Section</h2>
-            <p className="text-base leading-6">
-              This is an example of a responsive layout where the image is on
-              the left and the text is on the right on larger screens, but the
-              content stacks vertically on mobile screens.
+          <div className="text-content text-white md:w-1/2 text-center md:text-left">
+            <h2 className="text-2xl font-bold mb-4">Empathy Mapping</h2>
+            <p className="text-base leading-6 tracking-wider ">
+              The empathy maps from “Srilekha” and "Anil raju" provided
+              invaluable insights into the thoughts, emotions, behaviors, and
+              pain points of our target users. By understanding their
+              perspectives more deeply, we were able to tailor the MindSync
+              app's features and design to effectively address their specific
+              needs.
             </p>
           </div>
         </div>
 
         {/* =========================================================================================================================== */}
-        <div className="ml-32 mt-32 mr-28">
+        <div className=" my-20 flex flex-col md:flex-row items-start md:justify-center md:items-start gap-4 max-w-screen-lg mx-auto p-4 md:px-8">
+          <div className="text-content text-white md:w-1/2 text-center md:text-left">
+            <div className="relative flex items-center py-4  ">
+              {/* Small rectangle */}
+              <div
+                className="w-[9px] h-[59px] bg-[#C19162]"
+                style={{ position: "relative" }}
+              ></div>
+
+              {/* Text beside the rectangle */}
+              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+                Competitor Analysis
+              </p>
+            </div>
+            <div className="ml-2">
+              <h1 className="text-white tracking-wider text-xl font-semibold font-play ml-16">
+                Key takeaways:
+              </h1>
+              <ul className="list-disc list-outside pl-5 mr-12 ml-20 mt-8">
+                <li className="text-white">
+                  Calm stands on first in relaxation-oriented content and
+                  personalized recommendations
+                </li>
+                <li className="text-white">
+                  Headspace emphasizes structured meditation programs with
+                  expert-led sessions
+                </li>
+                <li className="text-white">
+                  Insight timer focuses on a broad selection of meditation
+                  practices and a supportive user community
+                </li>
+              </ul>
+            </div>
+          </div>
+          <img
+            src={msf}
+            alt="Responsive Image"
+            className="w-auto max-w-xs md:max-w-md object-contain md:w-1/2 md:ml-4 md:mr-8"
+          />
+        </div>
+
+        {/* =========================================================================================================================== */}
+        <div className="">
+          <div className="relative flex items-center py-4 ml-32 ">
+            {/* Small rectangle */}
+            <div
+              className="w-[9px] h-[59px] bg-[#C19162]"
+              style={{ position: "relative" }}
+            ></div>
+
+            {/* Text beside the rectangle */}
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+              Ideation
+            </p>
+          </div>
+          <div className="ml-32">
+            <p className="text-white ml-16 mr-36 tracking-wider">
+              During the ideation phase, a range of creative ideas were gathered
+              aiming at integrating cognitive techniques with meditation
+              practices to enhance mental wellness. The ideas are presented,
+              considered their potential, and categorized into different levels
+              of priority. After conducting some self-brainstorming sessions,
+              drawing inspiration from user insights, competitive analysis, and
+              the differentiation strategy. The goal was to create a pool of
+              innovative concepts that aligned with the MindSync app's unique
+              approach.
+            </p>
+          </div>
+          <div className="flex justify-center items-center my-10">
+            <img
+              src={ms3}
+              alt="Responsive Image"
+              className="w-auto max-w-xs md:max-w-screen-lg object-contain"
+            />
+          </div>
+          <div className="ml-32 mt-16 mr-56">
+            <h1 className="text-white tracking-wider text-xl font-semibold font-play ml-16">
+              Prioritizing Categories:
+            </h1>
+            <p>
+              Considering the feasibility, user value, and alignment with the
+              app's goals to prioritize the ideas:{" "}
+            </p>
+            <ul className="list-disc list-outside pl-5  ml-20 tracking-[0.12em] ">
+              <li className="text-white ">
+                Must-Have Ideas: These ideas directly align with the MindSync
+                app's core purpose and user needs. They are feasible to
+                implement and offer substantial value.
+              </li>
+              <li className="text-white ">
+                Neutral Ideas: While these ideas may enhance the overall
+                experience, they are not critical to the app's core
+                functionality. They will be considered for future updates.
+              </li>
+              <li className="text-white ">
+                Not Necessary Ideas: These ideas may not contribute
+                significantly to the app's main objectives or may require
+                extensive resources. They are not immediate priorities.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* ---------------------------------------------------------------------------------------------------------------------------------------     */}
+
+        <div className="ml-32 mt-14 mr-28">
           <div className="relative flex items-center py-4  ">
             {/* Small rectangle */}
             <div
@@ -243,40 +352,79 @@ const Ms3 = () => {
 
             {/* Text beside the rectangle */}
             <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
-              Architecture
+              Cognitive techniques
             </p>
           </div>
           <div className="">
-            <p className="text-white ml-16 mr-36 tracking-widest">
-              To create the physical product, I first identified the business
-              objectives and essential features aligned with user goals, and
-              then developed a primary architectural plan. This plan was shaped
-              by formulating "How Might We" statements, which address user needs
-              and guide the implementation of tasks and technology solutions.
-            </p>
             <div>
-              <p className="text-2xl font-semibold font-play text-white ml-20 mt-10  tracking-wider">
-                How might we?
-              </p>
-              <ul className="list-decimal list-outside pl-5  ml-24 mt-8 mr-10 tracking-widest">
+              <ul className="list-decimal list-outside pl-5  ml-24 mt-8 mr-52 tracking-widest">
                 <li className="text-white">
-                  How might we help users discover books in a way that feels
-                  less overwhelming?
+                  Cognitive Restructuring: Users learn to identify negative
+                  thought patterns and replace them with more balanced and
+                  rational thoughts. This technique promotes healthier
+                  perspectives and reduces anxiety.
                 </li>
                 <li className="text-white">
-                  How might we personalize the book-shopping experience based on
-                  mood, genre, and preferences?
+                  Thought Labeling: Users practice labeling their thoughts as
+                  either "helpful" or "unhelpful." This technique promotes
+                  detachment from thoughts and helps manage overwhelming
+                  emotions.
                 </li>
                 <li className="text-white">
-                  How might we create a sense of community for users, rewarding
-                  them for sharing and purchasing books?
+                  Cognitive Defusion: Users learn to distance themselves from
+                  their thoughts, treating them as passing mental events rather
+                  than absolute truths. This technique reduces the impact of
+                  distressing thoughts.
                 </li>
                 <li className="text-white">
-                  How might we incorporate gamification elements to make the
-                  shopping experience more engaging?
+                  Positive Reframing: MindSync encourages users to reframe
+                  negative situations by focusing on positive aspects. This
+                  technique shifts perspective and enhances resilience.
+                </li>
+                <li className="text-white">
+                  Mindful Observation: Users practice observing their thoughts
+                  without judgment, creating a sense of detachment and reducing
+                  reactivity.
+                </li>
+                <li className="text-white">
+                  Emotional Acceptance: MindSync guides users in acknowledging
+                  and accepting their emotions without judgment, fostering
+                  emotional resilience.
+                </li>
+                <li className="text-white">
+                  Goal Setting and Action Planning: MindSync assists users in
+                  setting cognitive goals and creating action plans to challenge
+                  unhelpful thoughts and behaviors.
+                </li>
+                <li className="text-white">
+                  Breath Awareness with Cognitive Focus: Breathing exercises are
+                  combined with cognitive prompts, enhancing mindfulness and
+                  emotional awareness.
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+        {/* ---------------------------------------------------------------------------------------------------------------------------------------- */}
+        <div className="ml-32 mt-32 mr-28 ">
+          <div className="relative flex items-center py-4  ">
+            {/* Small rectangle */}
+            <div
+              className="w-[9px] h-[59px] bg-[#C19162]"
+              style={{ position: "relative" }}
+            ></div>
+
+            {/* Text beside the rectangle */}
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              Information Architecture
+            </p>
+          </div>
+          <div className="flex justify-center items-center my-10">
+            <img
+              src={ifa}
+              alt="Responsive Image"
+              className="w-auto max-w-xs md:max-w-screen-md object-contain"
+            />
           </div>
         </div>
         {/* ---------------------------------------------------------------------------------------------------------------------------------------- */}
@@ -295,25 +443,44 @@ const Ms3 = () => {
           </div>
           <div className="">
             <p className="text-white ml-16 mr-36 tracking-widest">
-              The design reflects a royal, dark vintage vibe to differentiate
-              from competitors. The idea was to provide a premium, immersive
-              experience, where users feel as if they are entering an exclusive
-              library.
+              The MindSync app's design will focus on creating a serene and
+              intuitive interface that supports users in their mindfulness and
+              cognitive meditation journey. The concept is centered around
+              simplicity, fluidity, and a sense of calm that reflects the app’s
+              core purpose: to help users connect deeply with their emotions and
+              thoughts.
             </p>
           </div>
           <div className="py-4 ml-2 mt-10">
             <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
-              Color Scheme
+              Behind the Name & Branding
             </p>
-            <p className="text-white ml-16 mr-36 tracking-widest mt-5">
-              The color scheme leans heavily on deep, dark tones with hints of
-              gold and crimson, evoking the charm of vintage books. This design
-              choice was intentional to appeal to avid readers and create a
-              timeless, sophisticated feel.
+            <p className="text-white ml-14 mr-36 tracking-widest mt-5">
+              The name "MindSync" signifies the synchronization and balance of
+              the mind, much like the phases of the moon that cycle in harmony.
+              Just as the moon undergoes phases of waxing and waning, the
+              MindSync app guides users through phases of mental growth and
+              transformation. The moon's gentle glow symbolizes serenity and
+              calm, aligning with the app's focus on integrating cognitive
+              techniques with meditation for a metamorphic mental wellness
+              experience. This name reflects the idea that achieving mental
+              wellness is an ongoing journey, akin to the moon's cyclical
+              phases. Users can "sync" their minds with the app's guided
+              sessions to find balance. Thus, "MindSync" captures the essence of
+              fostering a harmonious connection between the mind and the moon's
+              rhythmic cycles.
             </p>
-          </div>
-          <div className="flex justify-center items-center mt-5 p-5">
-            <img src={thebook} alt="Design Concept Image" className="h-lvh" />
+            <div className="py-4 mt-10">
+              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+                Color Scheme
+              </p>
+              <p className="text-white ml-14 mr-36 tracking-widest mt-5">
+                Color Scheme Soft, calming hues like white and lavender evoke
+                tranquility and peace. Accent colors pink, yellow areused to
+                signify progress, focus, or milestones in meditation. Navy blue
+                is used for the night mode.
+              </p>
+            </div>
           </div>
         </div>
         {/* -----------------------------------------------------------------------------------------------------------------------------------------------     */}
@@ -349,117 +516,12 @@ const Ms3 = () => {
                 mockups.
               </p>
             </div>
-          </div>
-          <div className="mx-20 mt-10 bg-black">
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pb-10">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
-              <div className=" rounded-lg ">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className=" rounded-lg ">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
+            <div className="flex justify-center items-center mt-5 p-5">
+              <img
+                src={up4}
+                alt="Design Concept Image"
+                className="h-lvh rounded-2xl"
+              />
             </div>
           </div>
         </div>
@@ -474,65 +536,23 @@ const Ms3 = () => {
 
             {/* Text beside the rectangle */}
             <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
-              Challenges & Learnings
+              Outcomes & Learnings
             </p>
           </div>
           <div className="">
             <p className="text-white ml-16 mr-36 tracking-widest">
-              One challenge was maintaining a consistent aesthetic while
-              ensuring usability across all devices. The rich, dark colors
-              required careful contrast management to ensure readability without
-              losing the vintage charm. Another challenge was finding a balance
-              between creative freedom (like the fantasy-driven "mystery box")
-              and keeping the design practical for e-commerce.
-            </p>
-            <div>
-              <p className="text-2xl font-semibold font-play text-white ml-20 mt-10  tracking-wider">
-                Results & Learnings
-              </p>
-              <ul className="list-disc list-outside pl-5  ml-24 mt-8 mr-10 tracking-widest">
-                <li className="text-white">
-                  <strong>Improved Engagement:</strong> The gamified elements
-                  like the top reader picks and mystery box increased engagement
-                  by X%
-                </li>
-                <li className="text-white">
-                  <strong>Seamless Navigation:</strong>
-                  Users reported that the mood-based filters and genre
-                  categorization made book discovery easier.
-                </li>
-                <li className="text-white">
-                  <strong>Consistent Branding:</strong> The royal vintage
-                  aesthetic received positive feedback for its uniqueness and
-                  cohesiveness throughout the site.
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p className="text-2xl font-semibold font-play text-white ml-20 mt-10  tracking-wider">
-                Next Steps
-              </p>
-              <ul className="list-disc list-outside pl-5  ml-24 mt-8 mr-10 tracking-widest">
-                <li className="text-white">
-                  <strong>Testing & Iteration:</strong>
-                  Conduct more A/B testing to refine certain features like the
-                  checkout process and product recommendations.
-                </li>
-                <li className="text-white">
-                  <strong>Feature Expansion:</strong>
-                  Implement user profiles where users can track their reading
-                  history and unlock more mystery boxes based on purchases.
-                </li>
-              </ul>
-            </div>
-            <p className="text-white ml-16 mr-36 mt-10 tracking-widest ">
-              The Bookshelf is more than just a bookstore—it’s a fully immersive
-              experience for book lovers. By blending a vintage, luxurious
-              aesthetic with thoughtful user-centered features, the site not
-              only attracts readers but also keeps them engaged. My goal was to
-              create a platform that is functional, visually appealing, and
-              emotionally engaging, and I’m proud to see that reflected in the
-              final product.
+              Through meticulous research, empathetic understanding, and
+              innovative thinking, a unique meditation application has been
+              designed that not only addresses the challenges of modern mental
+              wellness but also activates the cognitive senses in the users mind
+              By infusing cognitive techniques with meditation practices,
+              MindSync offers users a holistic approach to enhancing emotional
+              regulation, self-awareness, and personal growth. The empathetic
+              insights gathered from user personas and empathy maps have driven
+              our design decisions, ensuring that the app resonates deeply with
+              users. Furthermore, the competitive analysis helped us distinguish
+              MindSync in the crowded field of meditation apps by capitalizing
+              on the moon theme and its calming, meaningful symbolism.
             </p>
           </div>
           {/* <div className="absolute w-[499.01px] h-0 left-1/2 transform -translate-x-[250px]  border border-white/70 blur-[3px]"></div> */}
