@@ -6,6 +6,7 @@ import Projects from "./pages/projects";
 import Bookshelf from "./pages/bookshelf";
 import Mindsync from "./pages/Mindsync";
 import Ted from "./pages/tedx";
+import Timeless from "./pages/timeless";
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
         <Route element={<Bookshelf />} path="/Bookshelf" />
         <Route element={<Mindsync />} path="/Mindsync" />
         <Route element={<Ted />} path="/TedxBMU" />
+        <Route element={<Timeless />} path="/Timeless" />
       </Routes>
     </Router>
   );

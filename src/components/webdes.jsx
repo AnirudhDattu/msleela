@@ -3,6 +3,8 @@ import bksm from "../assets/booksm.png";
 import book from "../assets/bkshlf.png";
 import jl from "../assets/jule.png";
 import tmls from "../assets/timeless.png";
+import tedbg from "../assets/tedx.png";
+import tedlg from "../assets/tedlg.png";
 import { Link } from "react-router-dom";
 
 const Webdes = () => {
@@ -51,7 +53,81 @@ const Webdes = () => {
           <div className="mt-6 text-center">
             <Link to="/Bookshelf">
               <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-                UX Research
+                View
+              </button>
+            </Link>
+          </div>
+        </div>
+
+        {/* Second Card */}
+        <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+          {/* Top Image */}
+          <div className="flex  justify-center">
+            <img
+              src={tedbg}
+              alt="Top Image"
+              className="w-[400px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
+            />
+          </div>
+
+          {/* Middle Image */}
+          <div className="flex  justify-center">
+            <img
+              src={tedlg}
+              alt="Middle Image"
+              className="w-[200px] h-30 object-cover mt-8" // Adjusted to match the height
+            />
+          </div>
+
+          {/* Text Section */}
+          <div className="mt-2 text-sm text-center sm:text-base lg:text-lg font-play text-[#EBD1FF]">
+            <p>E-Commerce, UX Research, UI Web Design, Branding, Color Guide</p>
+          </div>
+
+          {/* Button Section */}
+          <div className="mt-6 text-center">
+            <Link to="/TedxBMU">
+              <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
+                View
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 justify-center mx-auto max-w-screen-lg">
+        {/* First Card */}
+        <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+          {/* Top Image */}
+          <div className="flex  justify-center">
+            <img
+              src={bksm}
+              alt="Top Image"
+              className="w-[300px] h-58 object-cover " // Adjusted to make it larger
+            />
+          </div>
+
+          {/* Middle Image */}
+          <div className="flex  justify-center">
+            <img
+              src={book}
+              alt="Middle Image"
+              className="w-[250px] h-30 object-cover mt-8" // Adjusted to match the height
+            />
+          </div>
+
+          {/* Text Section */}
+          <div className=" text-sm sm:text-base lg:text-lg text-center font-play text-[#EBD1FF]">
+            <p>
+              E-Commerce, UX Research, Psychology, UI Web Design, Responsive
+              Design
+            </p>
+          </div>
+
+          {/* Button Section */}
+          <div className="mt-6 text-center">
+            <Link to="/Bookshelf">
+              <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
+                View
               </button>
             </Link>
           </div>
@@ -84,9 +160,11 @@ const Webdes = () => {
 
           {/* Button Section */}
           <div className="mt-6 text-center">
-            <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-              UX Research
-            </button>
+            <Link to="/Timeless">
+              <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
+                View
+              </button>
+            </Link>
           </div>
         </div>
       </div>
