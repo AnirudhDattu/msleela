@@ -60,20 +60,19 @@ const Main5 = () => {
         </div>
       </div>
       <div className="flex items-center justify-center h-[300px]">
-        <div
-          className="flex justify-start items-center space-x-4 cursor-pointer"
-          onClick={() => (window.location.href = "/projects")}
-        >
-          <p className="text-white text-2xl tracking-wider font-medium">
-            Check out more
-          </p>
-          {/* Custom arrow using borders for a larger tail */}
-          <span className="flex items-center justify-center">
-            <div className="w-[30px] h-0.5 bg-[#C19162]"></div> {/* Tail */}
-            <div className="border-t-[5px] border-r-[5px] border-[#C19162] rotate-45 ml-1"></div>{" "}
-            {/* Arrowhead */}
-          </span>
-        </div>
+        <Link to="/projects">
+          <div className="flex justify-start items-center space-x-4 cursor-pointer">
+            <p className="text-white text-2xl tracking-wider font-medium">
+              Check out more
+            </p>
+            {/* Custom arrow using borders for a larger tail */}
+            <span className="flex items-center justify-center">
+              <div className="w-[30px] h-0.5 bg-[#C19162]"></div> {/* Tail */}
+              <div className="border-t-[5px] border-r-[5px] border-[#C19162] rotate-45 ml-1"></div>{" "}
+              {/* Arrowhead */}
+            </span>
+          </div>
+        </Link>
       </div>
     </div>
   );
