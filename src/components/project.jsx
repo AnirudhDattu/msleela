@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = () => {
   return (
-    <div className="relative bg-gradient-to-b from-[#C98F60] to-[#8C37CF] h-[300px] flex justify-center items-center">
+    <div className="relative bg-gradient-to-b from-[#C98F60] to-[#8C37CF] h-[350px] flex justify-center items-center">
       {/* Breadcrumb placed in the top-left corner */}
       <nav
         aria-label="Breadcrumb"
@@ -12,7 +12,7 @@ const Project = () => {
           <li>
             <a
               href="/"
-              className="block transition font-play hover:text-gray-300"
+              className="block transition font-play tracking-widest text-lg hover:text-gray-300"
             >
               Home
             </a>
@@ -35,7 +35,7 @@ const Project = () => {
           <li>
             <a
               href="/projects"
-              className="block transition font-bold font-play hover:text-gray-300"
+              className="block transition font-bold font-play tracking-widest text-lg hover:text-gray-300"
             >
               Projects
             </a>
@@ -44,7 +44,7 @@ const Project = () => {
       </nav>
 
       <div className="text-center">
-        <p className="text-white font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-play leading-10 tracking-wider">
+        <p className="text-white font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-play leading-10 tracking-widest">
           PROJECTS
         </p>
       </div>
