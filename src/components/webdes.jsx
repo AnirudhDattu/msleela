@@ -14,8 +14,8 @@ import { Link } from "react-router-dom";
 const Webdes = () => {
   return (
     <div className="bg-black pb-44">
-      <div className="bg-black py-10 text-center">
-        <h1 className="text-white text-2xl sm:text-3xl font-play tracking-wider font-bold mt-12 mb-4">
+      <div className="bg-black py-10 text-center ">
+        <h1 className="text-white text-2xl sm:text-3xl font-play tracking-wider font-bold mt-16 mb-4">
           Web Design
         </h1>
         <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.15em]">
@@ -25,7 +25,7 @@ const Webdes = () => {
       </div>
 
       {/* Grid for the cards, centered */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 p-8 justify-center mx-auto transition max-w-screen-lg">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 p-8 justify-center mx-auto transition max-w-screen-lg">
         {/* First Card */}
         <div className="bg-[#151515] w-[400px]  text-white px-2 py-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
           {/* Top Image */}
@@ -33,7 +33,7 @@ const Webdes = () => {
             <img
               src={bksm}
               alt="Top Image"
-              className="w-[300px] h-58 object-cover " // Adjusted to make it larger
+              className="w-[260px] h-58 object-cover " // Adjusted to make it larger
             />
           </div>
 
@@ -42,7 +42,7 @@ const Webdes = () => {
             <img
               src={book}
               alt="Middle Image"
-              className="w-[250px] h-30 object-cover mt-10" // Adjusted to match the height
+              className="w-[250px] h-30 object-cover mt-16" // Adjusted to match the height
             />
           </div>
 
@@ -68,7 +68,7 @@ const Webdes = () => {
             <img
               src={jl}
               alt="Top Image"
-              className="w-[400px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
+              className="w-[330px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
             />
           </div>
 
@@ -99,7 +99,7 @@ const Webdes = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 justify-center mx-auto max-w-screen-lg ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 p-8 justify-center mx-auto transition max-w-screen-lg mt-10">
         {/* Second Card */}
         <div className="bg-[#151515] w-[400px]  text-white px-2 py-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
           {/* Top Image */}
@@ -107,7 +107,7 @@ const Webdes = () => {
             <img
               src={tedbg}
               alt="Top Image"
-              className="w-[350px] h-58 object-cover mt-3 mb-4 " // Adjusted to make it larger
+              className="w-[330px] h-58 object-cover mt-3 mb-4 " // Adjusted to make it larger
             />
           </div>
 

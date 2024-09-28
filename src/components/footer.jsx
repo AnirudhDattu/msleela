@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div id="footer" className="bg-[#151515] text-white p-8  font-play ">
-      <div className="my-9 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
+      <div className="my-16 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
         {/* Left Section: Logo */}
         <div className="w-full md:w-1/3 flex justify-start">
           <img src={logo} alt="Logo" className="h-16" />
