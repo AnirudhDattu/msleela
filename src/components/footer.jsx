@@ -12,13 +12,14 @@ const Footer = () => {
         </div>
 
         {/* Center Section: Contact Info */}
-        <div className="w-full md:w-1/3 text-center">
+        <div className="w-full md:w-1/3 text-start ml-40 tracking-widest">
+          <p className="text-lg">Say Hi! 👋</p>
           <p className="text-lg">sirisujala20042@gmail.com</p>
-          <p className="text-lg mt-2">+91 8790808292</p>
+          {/* <p className="text-lg mt-2">+91 8790808292</p> */}
         </div>
 
         {/* Right Section: Page Links */}
-        <div className="w-full md:w-1/3 flex justify-end">
+        <div className="w-full md:w-1/3 flex justify-end tracking-widest mr-16">
           <div className="flex flex-col items-center space-y-2">
             <Link to="/">
               <a className="text-lg hover:underline">Home</a>

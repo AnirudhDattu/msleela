@@ -6,30 +6,30 @@ import mind from "../assets/myndsync.png";
 const Main5 = () => {
   return (
     <div className="bg-black">
-      <div className="bg-black py-10 text-center">
-        <h1 className="text-white text-3xl sm:text-4xl font-play tracking-wider font-bold mb-4">
+      <div className="bg-black py-10 pt-20 text-center">
+        <h1 className="text-white text-2xl sm:text-3xl font-play tracking-widest font-bold mb-4">
           FEATURED PROJECTS
         </h1>
-        <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.25em]">
+        <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.20em] pb-12">
           These unveiled the beginning of my Journey
         </p>
       </div>
       <div className="bg-[#151515] flex items-center justify-between p-8 h-[450px]">
         {/* Left side image */}
-        <div className="w-1/2">
-          <img src={bookshelf} alt="Bookshelf" className=" h-auto" />
+        <div className="w-2/3">
+          <img src={bookshelf} alt="Bookshelf" className=" h-[400px]" />
         </div>
 
-        <div className="flex flex-col items-end w-1/2 space-y-4">
+        <div className="flex flex-col items-end w-1/3 space-y-10">
           <div className="flex flex-col items-center ">
-            <h1 className="text-[#C19162] text-3xl font-bold flex justify-center font-play">
-              The Bookshelf
+            <h1 className="text-[#C19162] text-3xl tracking-wide font-medium flex justify-center font-playfair ">
+              THE BOOKSHELF
             </h1>
-            <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.25em] text-center">
+            <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.18em] text-center">
               An E-commerce web design for books
             </p>
             <Link to="/Bookshelf">
-              <button className="px-16 py-2 mt-8 bg-[#151515] text-white border font-play border-white rounded-lg text-lg ">
+              <button className="px-14 py-1 mt-8 bg-[#151515] text-white  font-play border-white border-2 text-2xl tracking-widest ">
                 View
               </button>
             </Link>
@@ -37,17 +37,17 @@ const Main5 = () => {
         </div>
       </div>
 
-      <div className="bg-[#151515] flex items-center justify-between p-8 mt-14 h-[450px]">
-        <div className="flex flex-col items-start w-1/2 space-y-4">
+      <div className="bg-[#151515] flex items-center justify-between py-8 px-24 mt-14 h-[450px]">
+        <div className="flex flex-col items-start w-2/3 ">
           <div className="flex flex-col items-center ">
-            <h1 className="text-[#C19162] text-3xl font-bold font-play  text-center">
+            <h1 className="text-[#C19162] text-3xl tracking-wide font-medium flex justify-center font-playfair ">
               MIND SYNC
             </h1>
-            <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.25em] text-center">
+            <p className="text-white text-lg font-play sm:text-lg text-opacity-80 tracking-[0.18em] text-center">
               A mental wellness mobile application design
             </p>
             <Link to="/Mindsync">
-              <button className="px-16 py-2 mt-8 bg-[#151515] text-white border font-play border-white rounded-lg text-lg ">
+              <button className="px-14 py-1 mt-8 bg-[#151515] text-white border-2 font-play border-white text-2xl tracking-widest">
                 View
               </button>
             </Link>
@@ -55,16 +55,18 @@ const Main5 = () => {
         </div>
 
         {/* Right side image */}
-        <div className="w-1/2 flex justify-end">
-          <img src={mind} alt="Bookshelf" className="h-[365px] w-auto" />
+        <div className="w-2/3 flex justify-end">
+          <img src={mind} alt="Bookshelf" className="h-[400px] " />
         </div>
       </div>
       <div className="flex items-center justify-center h-[300px]">
         <div
-          className="flex items-center space-x-2 cursor-pointer"
+          className="flex justify-start items-center space-x-4 cursor-pointer"
           onClick={() => (window.location.href = "/projects")}
         >
-          <p className="text-white text-lg font-semibold">Click for more</p>
+          <p className="text-white text-2xl tracking-wider font-medium">
+            Check out more
+          </p>
           {/* Custom arrow using borders for a larger tail */}
           <span className="flex items-center justify-center">
             <div className="w-[30px] h-0.5 bg-[#C19162]"></div> {/* Tail */}
