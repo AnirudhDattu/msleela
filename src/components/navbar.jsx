@@ -13,10 +13,14 @@ const Header = () => {
             </Link>
           </div>
           <div className="absolute right-0 flex space-x-6">
-            <a href="#contact" className="text-lg hover:underline">
+            <a href="#footer" className="text-lg hover:underline">
               Contact
             </a>
-            <a href="#resume" className="text-lg hover:underline">
+            <a
+              href="https://drive.google.com/file/d/1Xd_E5VAKKU2SH8KdCyczU7mTj50Nyfej/view?usp=sharing"
+              className="text-lg hover:underline"
+              target="_blank"
+            >
               Resume
             </a>
           </div>

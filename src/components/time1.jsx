@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import timebg from "../assets/timebg.png"; // Replace with your image path
 
 const Time1 = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // This scrolls the page to the top
+  }, []);
   return (
     <div
       className="relative h-[350px] flex justify-center items-center bg-cover bg-center"

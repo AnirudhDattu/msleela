@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../assets/Main Logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#151515] text-white p-8  font-play ">
+    <div id="footer" className="bg-[#151515] text-white p-8  font-play ">
       <div className="my-9 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
         {/* Left Section: Logo */}
         <div className="w-full md:w-1/3 flex justify-start">
@@ -19,16 +20,20 @@ const Footer = () => {
         {/* Right Section: Page Links */}
         <div className="w-full md:w-1/3 flex justify-end">
           <div className="flex flex-col items-center space-y-2">
-            <a href="#home" className="text-lg hover:underline">
-              Home
-            </a>
+            <Link to="/">
+              <a className="text-lg hover:underline">Home</a>
+            </Link>
             <a href="#about" className="text-lg hover:underline">
               About
             </a>
-            <a href="#projects" className="text-lg hover:underline">
+            <a href="/projects" className="text-lg hover:underline">
               Projects
             </a>
-            <a href="#resume" className="text-lg hover:underline">
+            <a
+              href="https://drive.google.com/file/d/1Xd_E5VAKKU2SH8KdCyczU7mTj50Nyfej/view?usp=sharing"
+              className="text-lg hover:underline"
+              target="_blank"
+            >
               Resume
             </a>
           </div>

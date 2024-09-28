@@ -62,7 +62,7 @@ const Main5 = () => {
       <div className="flex items-center justify-center h-[300px]">
         <div
           className="flex items-center space-x-2 cursor-pointer"
-          onClick={() => (window.location.href = "/target-page")}
+          onClick={() => (window.location.href = "/projects")}
         >
           <p className="text-white text-lg font-semibold">Click for more</p>
           {/* Custom arrow using borders for a larger tail */}

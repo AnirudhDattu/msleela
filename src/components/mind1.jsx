@@ -1,7 +1,11 @@
-import React from "react";
-import msbg from "../assets/msbg.png"; // Replace with your image path
+import msbg from "../assets/msbg.png";
+import React, { useEffect } from "react";
 
 const Project = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // This scrolls the page to the top
+  }, []);
+
   return (
     <div
       className="relative h-[350px] flex justify-center items-center bg-cover bg-center"

@@ -5,7 +5,6 @@ import Book2 from "../components/book2";
 import Header from "../components/navbar";
 import Footer from "../components/footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ScrollToTop from "../components/top";
 
 function Bookshelf() {
   return (
