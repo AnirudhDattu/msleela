@@ -205,10 +205,10 @@ const Header = () => {
         </div>
 
         <div className="font-play space-y-6 flex flex-col items-center tracking-widest">
-          <Link to="/#home" className="block hover:text-[#BF81F0]">
+          <Link to="/" className="block hover:text-[#BF81F0]">
             HOME
           </Link>
-          <Link to="/#projects" className="block hover:text-[#BF81F0]">
+          <Link to="/projects" className="block hover:text-[#BF81F0]">
             PROJECTS
           </Link>
           <Link to="/#about" className="block hover:text-[#BF81F0]">
@@ -217,7 +217,11 @@ const Header = () => {
           <Link to="/#contact" className="block hover:text-[#BF81F0]">
             CONTACT
           </Link>
-          <Link to="/#resume" className="block hover:text-[#BF81F0]">
+          <Link
+            to="https://drive.google.com/file/d/1Xd_E5VAKKU2SH8KdCyczU7mTj50Nyfej/view?usp=sharing"
+            className="block hover:text-[#BF81F0]"
+            target="_blank"
+          >
             RESUME
           </Link>
         </div>
