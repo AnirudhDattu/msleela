@@ -205,21 +205,33 @@ const Header = () => {
         </div>
 
         <div className="font-play space-y-6 flex flex-col items-center tracking-widest">
-          <Link to="/" className="block hover:text-[#BF81F0]">
+          <Link
+            to="/"
+            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+          >
             HOME
           </Link>
-          <Link to="/projects" className="block hover:text-[#BF81F0]">
+          <Link
+            to="/projects"
+            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+          >
             PROJECTS
           </Link>
-          <Link to="/#about" className="block hover:text-[#BF81F0]">
+          <Link
+            to="/#about"
+            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+          >
             ABOUT
           </Link>
-          <Link to="/#contact" className="block hover:text-[#BF81F0]">
+          <Link
+            to="/#contact"
+            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+          >
             CONTACT
           </Link>
           <Link
             to="https://drive.google.com/file/d/1Xd_E5VAKKU2SH8KdCyczU7mTj50Nyfej/view?usp=sharing"
-            className="block hover:text-[#BF81F0]"
+            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
             target="_blank"
           >
             RESUME

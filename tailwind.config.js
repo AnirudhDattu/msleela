@@ -10,9 +10,12 @@ export default {
     extend: {
        fontFamily: {
         play: ['Play', 'sans-serif'],
-         playfair: ['"Playfair Display"', 'serif'],
+        playfair: ['"Playfair Display"', 'serif'],
+        neon: ['Tilt Neon', 'cursive'], 
+        sansation: ['Sansation', 'sans-serif'],
       },
-      fontSize: {
+    },
+    fontSize: {
       sm: '0.8rem',
       base: '1rem',
       xl: '1.25rem',
@@ -20,7 +23,6 @@ export default {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '2.681rem',
-    },
     },
   },
   plugins: [],

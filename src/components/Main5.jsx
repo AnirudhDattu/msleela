@@ -59,17 +59,31 @@ const Main5 = () => {
           <img src={mind} alt="Bookshelf" className="h-[400px] " />
         </div>
       </div>
-      <div className="flex items-center justify-center h-[300px]">
+      <div className="flex items-start justify-center h-[300px] mt-10">
         <Link to="/projects">
           <div className="flex justify-start items-center space-x-4 cursor-pointer">
             <p className="text-white text-2xl tracking-wider font-medium">
               Check out more
             </p>
-            {/* Custom arrow using borders for a larger tail */}
-            <span className="flex items-center justify-center">
-              <div className="w-[30px] h-0.5 bg-[#C19162]"></div> {/* Tail */}
-              <div className="border-t-[5px] border-r-[5px] border-[#C19162] rotate-45 ml-1"></div>{" "}
-              {/* Arrowhead */}
+            {/* Custom Arrow using a line and SVG */}
+            <span className="flex items-center ">
+              {/* Line before the arrow */}
+              <div className="w-[40px] h-0.5 bg-[#C19162]"></div>
+              {/* Arrow SVG */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 text-[#C19162] "
+                fill="none"
+                viewBox="2 0 24 24"
+                stroke="currentColor"
+                strokeWidth="3"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
             </span>
           </div>
         </Link>
