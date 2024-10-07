@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom"; // Make sure Link is imported
 import banner from "../assets/bookbanner.png";
+import { fromJSON } from "postcss";
 
 const BKa = () => {
   useEffect(() => {
@@ -8,69 +9,72 @@ const BKa = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[350px]">
-      {/* Image */}
-      <img src={banner} alt="Banner" className="w-full h-full object-cover" />
-
-      {/* Breadcrumbs - Top Left */}
+    <div
+      className="relative h-[350px] flex justify-center items-center bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${banner})`, // Using the imported image
+      }}
+    >
+      {/* Breadcrumb placed in the top-left corner */}
       <nav
         aria-label="Breadcrumb"
-        className="absolute top-4 left-4 text-sm text-gray-300"
+        className="absolute top-8 left-10 text-white"
       >
-        <ol className="flex items-center gap-1">
+        <ol className="flex items-center gap-1 text-sm text-gray-200">
           <li>
-            <Link to="/" className="block transition hover:text-white">
+            <a href="/" className="block transition hover:text-gray-300">
               Home
-            </Link>
+            </a>
           </li>
 
-          <li className="rtl:rotate-180">
+          <li>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5"
+              className="h-5 w-5"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
               <path
                 fillRule="evenodd"
-                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0-1.414 0z"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                 clipRule="evenodd"
               />
             </svg>
           </li>
-
           <li>
-            <Link to="/projects" className="block transition hover:text-white">
+            <a
+              href="/projects"
+              className="block transition hover:text-gray-300"
+            >
               Projects
-            </Link>
+            </a>
           </li>
-
-          <li className="rtl:rotate-180">
+          <li>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5"
+              className="h-5 w-5"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
               <path
                 fillRule="evenodd"
-                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0-1.414 0z"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                 clipRule="evenodd"
               />
             </svg>
           </li>
-
           <li>
-            <span className=" text-white text-bold">Bookshelf</span>
+            <a className="block transition font-bold hover:text-gray-300">
+              Bookshelf
+            </a>
           </li>
         </ol>
       </nav>
 
-      {/* Web Design Heading */}
-      <div className="absolute inset-0 flex justify-center items-center">
-        <h1 className="text-white text-4xl sm:text-5xl font-play tracking-wider font-bold">
+      <div className="text-center">
+        <p className="text-white font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-play leading-10 tracking-wider">
           Bookshelf
-        </h1>
+        </p>
       </div>
     </div>
   );

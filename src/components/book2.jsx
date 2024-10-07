@@ -2,7 +2,22 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bookimg from "../assets/book2.png";
 import thebook from "../assets/thebook.png";
+import tedbg from "../assets/tedx.png";
+import tedlg from "../assets/tedlg.png";
 import L1 from "../assets/lap1.png";
+import L2 from "../assets/L2.png";
+import L3 from "../assets/L3.png";
+import L4 from "../assets/L4.png";
+import L5 from "../assets/L5.png";
+import L6 from "../assets/L6.png";
+import L7 from "../assets/L7.png";
+import L8 from "../assets/L8.png";
+import L9 from "../assets/L9.png";
+import L10 from "../assets/L10.png";
+import L11 from "../assets/L11.png";
+import L12 from "../assets/L12.png";
+import L13 from "../assets/L13.png";
+import L14 from "../assets/L14.png";
 
 const data = {
   SAYS: [
@@ -157,7 +172,7 @@ const Book2 = () => {
             </div>
           </div>
         </div>
-        <div className="mt-32 ml-32 h-screen bg-black overflow-auto">
+        <div className="mt-32 ml-32  bg-black overflow-auto">
           <div className="flex items-center py-4">
             {/* Small rectangle */}
             <div className="w-[9px] h-[59px] bg-[#C19162]"></div>
@@ -424,37 +439,14 @@ const Book2 = () => {
               </div>
               <div className="rounded-lg">
                 <img
-                  src={L1}
+                  src={L2}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
               </div>
               <div className="rounded-lg">
                 <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
+                  src={L3}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
@@ -463,21 +455,44 @@ const Book2 = () => {
             <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
               <div className="rounded-lg">
                 <img
-                  src={L1}
+                  src={L4}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
               </div>
               <div className="rounded-lg">
                 <img
-                  src={L1}
+                  src={L5}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
               </div>
               <div className="rounded-lg">
                 <img
-                  src={L1}
+                  src={L6}
+                  alt="Design Concept Image"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
+              <div className="rounded-lg">
+                <img
+                  src={L7}
+                  alt="Design Concept Image"
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="rounded-lg">
+                <img
+                  src={L8}
+                  alt="Design Concept Image"
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="rounded-lg">
+                <img
+                  src={L9}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
@@ -487,14 +502,14 @@ const Book2 = () => {
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
               <div className=" rounded-lg ">
                 <img
-                  src={L1}
+                  src={L10}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
               </div>
               <div className=" rounded-lg ">
                 <img
-                  src={L1}
+                  src={L11}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
@@ -504,21 +519,21 @@ const Book2 = () => {
             <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
               <div className="rounded-lg">
                 <img
-                  src={L1}
+                  src={L12}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
               </div>
               <div className="rounded-lg">
                 <img
-                  src={L1}
+                  src={L13}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
               </div>
               <div className="rounded-lg">
                 <img
-                  src={L1}
+                  src={L14}
                   alt="Design Concept Image"
                   className="w-full h-auto"
                 />
@@ -607,38 +622,38 @@ const Book2 = () => {
               More Like This
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 justify-center mx-auto max-w-screen-lg">
-            {/* First Card */}
-            <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 p-8 justify-center mx-auto transition max-w-screen-lg mt-10">
+            {/* Second Card */}
+            <div className="bg-[#151515] w-[400px]  text-white px-2 py-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
               {/* Top Image */}
               <div className="flex  justify-center">
                 <img
-                  src={bksm}
+                  src={tedbg}
                   alt="Top Image"
-                  className="w-[300px] h-58 object-cover " // Adjusted to make it larger
+                  className="w-[330px] h-58 object-cover mt-3 mb-4 " // Adjusted to make it larger
                 />
               </div>
 
               {/* Middle Image */}
               <div className="flex  justify-center">
                 <img
-                  src={book}
+                  src={tedlg}
                   alt="Middle Image"
-                  className="w-[250px] h-30 object-cover mt-8" // Adjusted to match the height
+                  className="w-[180px] h-30 object-cover mt-8 " // Adjusted to match the height
                 />
               </div>
 
               {/* Text Section */}
-              <div className=" text-sm sm:text-base lg:text-lg text-center font-play text-[#EBD1FF]">
+              <div className="mt-5 text-sm sm:text-base lg:text-lg text-center font-play tracking-wider text-[#EBD1FF]">
                 <p>
-                  E-Commerce, UX Research, Psychology, UI Web Design, Responsive
+                  University Project | Real time, UI Design, Testing, Responsive
                   Design
                 </p>
               </div>
 
               {/* Button Section */}
-              <div className="mt-9 text-center ">
-                <Link to="/Bookshelf">
+              <div className="mt-7 mb-3 text-center">
+                <Link to="/TedxBMU">
                   <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
                     View
                   </button>
@@ -647,13 +662,13 @@ const Book2 = () => {
             </div>
 
             {/* Second Card */}
-            <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+            <div className="bg-[#151515] w-[400px] text-white  p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
               {/* Top Image */}
               <div className="flex  justify-center">
                 <img
                   src={jl}
                   alt="Top Image"
-                  className="w-[400px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
+                  className="w-[330px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
                 />
               </div>
 
@@ -662,21 +677,22 @@ const Book2 = () => {
                 <img
                   src={tmls}
                   alt="Middle Image"
-                  className="w-[200px] h-30 object-cover mt-8" // Adjusted to match the height
+                  className="w-[200px] h-30 object-cover mt-11" // Adjusted to match the height
                 />
               </div>
 
               {/* Text Section */}
-              <div className="mt-2 text-sm text-center sm:text-base lg:text-lg font-play text-[#EBD1FF]">
+              <div className="tracking-wider text-sm text-center sm:text-base lg:text-lg font-play mt-8 mb-7 text-[#EBD1FF]">
                 <p>
-                  E-Commerce, UX Research, UI Web Design, Branding, Color Guide
+                  Internship Case study | E-Commerce, UX Process, Visual Design,
+                  Color Guide
                 </p>
               </div>
 
               {/* Button Section */}
-              <div className="mt-9 text-center ">
+              <div className="mt-6 text-center">
                 <Link to="/Timeless">
-                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1 mb-4  border-2 border-white text-sm sm:text-base lg:text-lg">
                     View
                   </button>
                 </Link>

@@ -37,7 +37,7 @@ const About1 = () => {
           {/* Top Row */}
           <div></div> {/* Empty space for alignment */}
           <span
-            className="text-6xl text-[#C98F60] col-span-2"
+            className="text-6xl text-[#C98F60] col-span-2 rotate-90"
             style={{ fontFamily: "Train One" }}
           >
             A

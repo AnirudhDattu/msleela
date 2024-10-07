@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import bookimg from "../assets/book2.png";
 import thebook from "../assets/thebook.png";
 import L1 from "../assets/lap1.png";
@@ -265,260 +266,11 @@ const Ted3 = () => {
           </div>
         </div>
         {/* ------------------------------------------------------------------------next------------------------------------------------------- */}
-        <div className="ml-32 mt-32 mr-28">
-          <div className="relative flex items-center py-4  ">
-            {/* Small rectangle */}
-            <div
-              className="w-[9px] h-[59px] bg-[#C19162]"
-              style={{ position: "relative" }}
-            ></div>
 
-            {/* Text beside the rectangle */}
-            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
-              Architecture
-            </p>
-          </div>
-          <div className="">
-            <p className="text-white ml-16 mr-36 tracking-widest">
-              To create the physical product, I first identified the business
-              objectives and essential features aligned with user goals, and
-              then developed a primary architectural plan. This plan was shaped
-              by formulating "How Might We" statements, which address user needs
-              and guide the implementation of tasks and technology solutions.
-            </p>
-            <div>
-              <p className="text-2xl font-semibold font-play text-white ml-20 mt-10  tracking-wider">
-                How might we?
-              </p>
-              <ul className="list-decimal list-outside pl-5  ml-24 mt-8 mr-10 tracking-widest">
-                <li className="text-white">
-                  How might we help users discover books in a way that feels
-                  less overwhelming?
-                </li>
-                <li className="text-white">
-                  How might we personalize the book-shopping experience based on
-                  mood, genre, and preferences?
-                </li>
-                <li className="text-white">
-                  How might we create a sense of community for users, rewarding
-                  them for sharing and purchasing books?
-                </li>
-                <li className="text-white">
-                  How might we incorporate gamification elements to make the
-                  shopping experience more engaging?
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
         {/* ---------------------------------------------------------------------------------------------------------------------------------------- */}
 
         {/* -----------------------------------------------------------------------------------------------------------------------------------------------     */}
-        <div>
-          <div className="ml-32 mt-32 mr-28">
-            <div className="relative flex items-center py-4  ">
-              {/* Small rectangle */}
-              <div
-                className="w-[9px] h-[59px] bg-[#C19162]"
-                style={{ position: "relative" }}
-              ></div>
 
-              {/* Text beside the rectangle */}
-              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
-                Wireframes & Prototyping
-              </p>
-            </div>
-            <div className="">
-              <p className="text-white ml-16 mr-36 tracking-widest">
-                I started with low-fidelity wireframes, gradually refining them
-                based on user feedback. As this is a personal case study i was
-                comforatble using a notepad when it comes to wireframes rather
-                than using any online tool. I use tools when there is a
-                requirement to use them
-              </p>
-            </div>
-            <div className="py-4 ml-2 mt-10">
-              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
-                Visual Design
-              </p>
-              <p className="text-white ml-16 mr-36 tracking-widest mt-5">
-                Once the structure was in place, I moved to high-fidelity
-                mockups.
-              </p>
-            </div>
-          </div>
-          <div className="mx-20 mt-10 bg-black">
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pb-10">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
-              <div className=" rounded-lg ">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className=" rounded-lg ">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-
-            <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 pt-20 pb-20">
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-lg">
-                <img
-                  src={L1}
-                  alt="Design Concept Image"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* -----------------------------------------------------------------------------------------------------------------------------------------------     */}
-        <div className="ml-32 mt-20 mr-28">
-          <div className="relative flex items-center py-4  ">
-            {/* Small rectangle */}
-            <div
-              className="w-[9px] h-[59px] bg-[#C19162]"
-              style={{ position: "relative" }}
-            ></div>
-
-            {/* Text beside the rectangle */}
-            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
-              Continuous feedback & Iterations
-            </p>
-          </div>
-          <div className="">
-            <p className="text-white ml-16 mr-36 tracking-widest">
-              While the time constraints limited the full UX process, I
-              incorporated ongoing feedback from the organizing committee and
-              peers. This iterative process helped me make adjustments to the
-              design, ensuring that all essential information was easy to access
-              and the UI remained visually appealing. Despite the absence of
-              formal usability testing, small adjustments based on real-time
-              feedback improved navigation and the clarity of the website’s key
-              features. This continuous loop of feedback allowed me to refine
-              the website to better meet user needs, ensuring it stayed aligned
-              with the event’s goals and user expectations.
-            </p>
-          </div>
-          <div className="mt-10">
-            <div className="relative flex items-center py-4  ">
-              {/* Small rectangle */}
-              <div
-                className="w-[9px] h-[59px] bg-[#C19162]"
-                style={{ position: "relative" }}
-              ></div>
-
-              {/* Text beside the rectangle */}
-              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
-                Challenges
-              </p>
-            </div>
-            <div>
-              <ul className="list-disc list-outside pl-5 ml-24 mt-5 mr-10 tracking-widest">
-                <li className="text-white mb-9">
-                  Time Constraints: The website needed to be designed within a
-                  tight timeline, which limited the depth of user testing or
-                  iterative design improvements.
-                </li>
-                <li className="text-white">
-                  Minimal UX Process: Due to the time restrictions, I focused
-                  more on the UI elements, with limited opportunity to conduct
-                  user research or in-depth usability testing. However, the
-                  clean, intuitive design mitigated potential UX issues.
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* <div className="absolute w-[499.01px] h-0 left-1/2 transform -translate-x-[250px]  border border-white/70 blur-[3px]"></div> */}
-        </div>
         {/* =========================================================================================================================== */}
         <div className="bg-black mt-28 pb-20">
           <div className="bg-black py-10 text-center mb-10">
@@ -526,15 +278,15 @@ const Ted3 = () => {
               More Like This
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 justify-center mx-auto max-w-screen-lg">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 p-8 justify-center mx-auto transition max-w-screen-lg">
             {/* First Card */}
-            <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+            <div className="bg-[#151515] w-[400px]  text-white px-2 py-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
               {/* Top Image */}
               <div className="flex  justify-center">
                 <img
                   src={bksm}
                   alt="Top Image"
-                  className="w-[300px] h-58 object-cover " // Adjusted to make it larger
+                  className="w-[260px] h-58 object-cover " // Adjusted to make it larger
                 />
               </div>
 
@@ -543,34 +295,34 @@ const Ted3 = () => {
                 <img
                   src={book}
                   alt="Middle Image"
-                  className="w-[250px] h-30 object-cover mt-8" // Adjusted to match the height
+                  className="w-[250px] h-30 object-cover mt-16" // Adjusted to match the height
                 />
               </div>
 
               {/* Text Section */}
-              <div className=" text-sm sm:text-base lg:text-lg text-center font-play text-[#EBD1FF]">
+              <div className="mt-5 text-sm sm:text-base lg:text-lg text-center font-play tracking-wider text-[#EBD1FF]">
                 <p>
-                  E-Commerce, UX Research, Psychology, UI Web Design, Responsive
-                  Design
+                  Internship Case study | E-Commerce, UX Research, Psychology,
+                  UI
                 </p>
               </div>
 
               {/* Button Section */}
-              <div className="mt-6 text-center">
-                <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-                  UX Research
-                </button>
+              <div className="mt-7 text-center">
+                <Link to="/Bookshelf">
+                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                    View
+                  </button>
+                </Link>
               </div>
             </div>
-
-            {/* Second Card */}
-            <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+            <div className="bg-[#151515] w-[400px] text-white  p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
               {/* Top Image */}
               <div className="flex  justify-center">
                 <img
                   src={jl}
                   alt="Top Image"
-                  className="w-[400px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
+                  className="w-[330px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
                 />
               </div>
 
@@ -584,17 +336,20 @@ const Ted3 = () => {
               </div>
 
               {/* Text Section */}
-              <div className="mt-2 text-sm text-center sm:text-base lg:text-lg font-play text-[#EBD1FF]">
+              <div className="tracking-wider text-sm text-center sm:text-base lg:text-lg font-play mt-5 text-[#EBD1FF]">
                 <p>
-                  E-Commerce, UX Research, UI Web Design, Branding, Color Guide
+                  Internship Case study | E-Commerce, UX Process, Visual Design,
+                  Color Guide
                 </p>
               </div>
 
               {/* Button Section */}
               <div className="mt-6 text-center">
-                <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-                  UX Research
-                </button>
+                <Link to="/Timeless">
+                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1 mb-4  border-2 border-white text-sm sm:text-base lg:text-lg">
+                    View
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
