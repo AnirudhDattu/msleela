@@ -4,9 +4,10 @@ import bgimg from "../assets/about bgimg.png";
 const About1 = () => {
   return (
     <div
-      className="bg-cover bg-center min-h-screen bg-[#1b1b1b]"
+      className="bg-cover bg-center min-h-screen bg-[#1b1b1b] flex"
       style={{ backgroundImage: `url(${bgimg})` }} // Replace with your image path
     >
+      <div className="w-full md:w-2/5">
       <div className="text-white w-full md:w-2/3 lg:max-w-[610px] pt-48 pl-44">
         <h1 className="text-4xl tracking-widest mb-10 font-neon">
           Hello Stranger!
@@ -30,62 +31,6 @@ const About1 = () => {
           problem-solving and storytelling.
         </p>
       </div>
-
-      {/* AMIWHO Section */}
-      <div className="pt-8 pl-44 flex items-center justify-center">
-        <div className="grid grid-cols-4 gap-4 text-center">
-          {/* Top Row */}
-          <div></div> {/* Empty space for alignment */}
-          <span
-            className="text-6xl text-[#C98F60] col-span-2 rotate-90"
-            style={{ fontFamily: "Train One" }}
-          >
-            A
-          </span>
-          <div></div> {/* Empty space for alignment */}
-          {/* Middle Row */}
-          <span
-            className="text-6xl text-white"
-            style={{ fontFamily: "Rubik Iso" }}
-          >
-            W
-          </span>
-          <span
-            className="text-6xl text-white"
-            style={{ fontFamily: "Rubik Iso" }}
-          >
-            H
-          </span>
-          <span
-            className="text-6xl text-white"
-            style={{ fontFamily: "Rubik Iso" }}
-          >
-            O
-          </span>
-          <span
-            className="text-6xl text-[#C98F60]"
-            style={{ fontFamily: "Rubik Iso" }}
-          >
-            ?
-          </span>
-          {/* Bottom Row */}
-          <div></div> {/* Empty space for alignment */}
-          <span
-            className="text-6xl text-white"
-            style={{ fontFamily: "Train One" }}
-          >
-            M
-          </span>
-          <span
-            className="text-6xl text-white"
-            style={{ fontFamily: "Rubik Iso" }}
-          >
-            I
-          </span>
-          <div></div> {/* Empty space for alignment */}
-        </div>
-      </div>
-
       {/* Experience Section */}
       <div className="text-white w-full md:w-2/3 lg:max-w-[610px] pt-10 pl-44 pb-20">
         <h1 className="text-4xl tracking-widest mb-10 font-neon">Experience</h1>
@@ -105,6 +50,54 @@ const About1 = () => {
           <span className="text-[#BF81F0]">solutions that truly fit</span> the
           needs of the audience.
         </p>
+      </div>
+      </div>
+      <div>
+      {/* AMIWHO Section */}
+      <div className="pt-8 flex items-center text-center justify-center mt-[15rem]">
+        <div className="gap-4 text-center text-[5rem]">
+          {/* Top Row */}
+          <div className="flex ml-10"> {/* Empty space for alignment */}
+          <div className="flex">
+          <div
+            className="text-6xl text-[#C98F60] rotate-[-90deg] "
+            style={{ fontFamily: "Train One" }}
+          >
+            A
+          </div>
+          <div
+            className="text-6xl text-white mt-10"
+            style={{ fontFamily: "Train One" }}
+          >
+            M
+          </div>
+          </div>
+          <div
+            className="text-6xl text-[#C98F60] pl-24 mt-20" 
+            style={{ fontFamily: "Rubik Iso" }}
+          >
+            I
+          </div>
+      </div>
+          <div className="text-6xl text-white tracking-widest"
+            style={{ fontFamily: "Rubik Iso" }}> {/* Empty space for alignment */}
+            W  H  O  <span className="text-[#C98F60]">?</span> 
+        </div>
+          </div>
+      </div>
+      <div className="text-white w-full lg:max-w-[560px] mt-24">
+      <p className="text-lg mb-8 tracking-widest leading-8 font-sansation opacity-80">
+      I design from a place of curiosity and connection. Whether it’s turning a sunset into a palette or finding the perfect layout in the structure of everyday life, I believe that the best designs come from a deep understanding of the world around us. My work reflects this—every project has a story, a sense of purpose, and a personal touch. I don’t just create for users, I create with them in mind, designing experiences that feel welcoming, and real. For me, design is all about turning those small, meaningful experiences into intuitive, impactful products.
+        </p>
+      </div>
+      <div className="text-white w-full lg:max-w-[560px] mt-32">
+      <h1 className="text-4xl tracking-widest mb-10 font-neon">
+         What’s my Style?        
+      </h1>
+      <p className="text-lg mb-8 tracking-widest leading-8 font-sansation opacity-80">
+      I’m all about balance. I love mixing function with a touch of flair—designs that are clean but never boring, user-friendly but still memorable. I’m drawn to designs that tell a story and evoke emotion, whether it's through subtle interactions, thoughtful color choices, or a layout that just feels right. My goal? To create digital experiences that resonate with users on a deeper level, making them feel understood and inspired.
+      </p>
+      </div>
       </div>
     </div>
   );
