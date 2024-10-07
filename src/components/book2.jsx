@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import bookimg from "../assets/book2.png";
 import thebook from "../assets/thebook.png";
 import L1 from "../assets/lap1.png";
@@ -636,10 +637,12 @@ const Book2 = () => {
               </div>
 
               {/* Button Section */}
-              <div className="mt-6 text-center">
-                <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-                  UX Research
-                </button>
+              <div className="mt-9 text-center ">
+                <Link to="/Bookshelf">
+                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                    View
+                  </button>
+                </Link>
               </div>
             </div>
 
@@ -671,10 +674,12 @@ const Book2 = () => {
               </div>
 
               {/* Button Section */}
-              <div className="mt-6 text-center">
-                <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-                  UX Research
-                </button>
+              <div className="mt-9 text-center ">
+                <Link to="/Timeless">
+                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                    View
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

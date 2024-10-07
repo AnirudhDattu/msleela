@@ -176,7 +176,7 @@ const Webdes = () => {
           </div>
 
           {/* Text Section */}
-          <div className=" mt-8 text-sm sm:text-base tracking-wider leading-none pb-7 lg:text-lg text-center font-play text-[#EBD1FF]">
+          <div className="mt-8 text-sm text-center tracking-wider pb-5 sm:text-base lg:text-lg font-play text-[#EBD1FF]">
             <p>
               Personal Project | Branding, Psychology, Cognition, Human
               behavior, UX process, UI Design
@@ -184,7 +184,7 @@ const Webdes = () => {
           </div>
 
           {/* Button Section */}
-          <div className="mt-6 text-center mb-4">
+          <div className="mt-9 text-center ">
             <Link to="">
               <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
                 View
