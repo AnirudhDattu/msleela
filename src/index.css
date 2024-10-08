@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-@import url('https: //fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Train+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Train+One&display=swap");
 
 @font-face {
-    font-family: 'Sansation';
-    font-weight: 300;
-    src: url('./assets/fonts/Sansation_Light.ttf') format('truetype');
-    font-display: swap;
+  font-family: "Sansation";
+  font-weight: 300;
+  src: url("./assets/fonts/Sansation_Light.ttf") format("truetype");
+  font-display: swap;
 }
 
 body {
-    font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
 }
 
 @tailwind base;

@@ -8,6 +8,7 @@ import Mindsync from "./pages/Mindsync";
 import Ted from "./pages/tedx";
 import Timeless from "./pages/timeless";
 import About1 from "./components/about1";
+import HousingValley from "./pages/HousingValley";
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
         <Route element={<Ted />} path="/TedxBMU" />
         <Route element={<Timeless />} path="/Timeless" />
         <Route element={<About1 />} path="/About" />
+        <Route element={<HousingValley />} path="/HousingValley" />
       </Routes>
     </Router>
   );
