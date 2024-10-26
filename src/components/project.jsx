@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Project = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // This scrolls the page to the top
+  }, []);
+
   return (
     <div className="relative bg-gradient-to-b from-[#C98F60] to-[#8C37CF] h-[350px] flex justify-center items-center">
       {/* Breadcrumb placed in the top-left corner */}

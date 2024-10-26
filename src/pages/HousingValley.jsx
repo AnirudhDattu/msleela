@@ -2,8 +2,13 @@ import Header from "../components/navbar";
 import Footer from "../components/footer";
 import Housing from "../assets/Housing.png";
 import FirstImage from "../assets/Home-1.png";
+import React, { useEffect } from "react";
 
 const HousingValley = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // This scrolls the page to the top
+  }, []);
+
   return (
     <div className="bg-[#101010]">
       <Header />

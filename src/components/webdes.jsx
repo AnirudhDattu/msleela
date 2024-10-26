@@ -185,7 +185,7 @@ const Webdes = () => {
 
           {/* Button Section */}
           <div className="mt-9 text-center ">
-            <Link to="">
+            <Link to="/Mindsync">
               <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
                 View
               </button>
@@ -223,7 +223,7 @@ const Webdes = () => {
 
           {/* Button Section */}
           <div className="mt-6 text-center">
-            <Link to="/Bookshelf">
+            <Link to="/HousingValley">
               <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
                 View
               </button>
