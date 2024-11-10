@@ -172,6 +172,7 @@ const Book2 = () => {
             </div>
           </div>
         </div>
+        {/* ================================================================================ */}
         <div className="mt-32 ml-32  bg-black overflow-auto">
           <div className="flex items-center py-4">
             {/* Small rectangle */}
@@ -182,6 +183,7 @@ const Book2 = () => {
               Empathy Mapping
             </p>
           </div>
+
           <div className="text-sm p-5 md:p-10 font-play">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               {Object.entries(data).map(([category, texts], index) => (

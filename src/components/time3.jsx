@@ -1,4 +1,7 @@
 import React from "react";
+import timefe from "../assets/timefeat.png";
+import timeuj from "../assets/timeuj.png";
+import timeclse from "../assets/timeclsc.png";
 
 const Time3 = () => {
   return (
@@ -30,7 +33,7 @@ const Time3 = () => {
           <h1 className="text-white tracking-wider text-xl font-semibold font-play ml-16">
             Key Objectives
           </h1>
-          <ul className="list-disc list-outside pl-5  ml-20 mt-8">
+          <ul className="list-disc list-outside pl-5  ml-20 mt-4">
             <li className="text-white">
               Provide a sophisticated, user-friendly platform for purchasing
               jewelry.
@@ -81,7 +84,7 @@ const Time3 = () => {
           <h1 className="text-white tracking-wider text-xl font-semibold font-play ml-16">
             Project Overview
           </h1>
-          <ul className="list-disc list-outside pl-5  ml-20 mt-8">
+          <ul className="list-disc list-outside pl-5  ml-20 mt-4">
             <li className="text-white">
               <strong>Role:</strong>Lead UI/UX Designer
             </li>
@@ -94,7 +97,7 @@ const Time3 = () => {
           </ul>
         </div>
         {/* =============================================================================================== */}
-        <div className="ml-32 mt-16 mr-28">
+        <div className="ml-32 mt-16 mr-24">
           <div className="relative flex items-center py-4  ">
             {/* Small rectangle */}
             <div
@@ -107,7 +110,7 @@ const Time3 = () => {
               Research and Insights
             </p>
           </div>
-          <div cclassName="py-4 ml-2 mt-10">
+          <div className="py-4 ml-2 mt-10">
             <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
               Primary Research 🤔
             </p>
@@ -129,7 +132,7 @@ const Time3 = () => {
               <li>User Interviews 🎤</li>
             </p>
             <p className="text-white ml-16 mr-36 tracking-widest mt-5">
-              Participants: 8 individuals (5 women, 3 men) who had purchased
+              Participants: 4 individuals (5 women, 3 men) who had purchased
               luxury jewelry online at least once in the past year.
             </p>
             <div className="text-white ml-16 mr-36 tracking-widest mt-5">
@@ -159,7 +162,7 @@ const Time3 = () => {
                   luxury nature of the products.
                 </li>
                 <li>
-                  6 out of 8 participants mentioned wanting personalized
+                  6 out of 4 participants mentioned wanting personalized
                   recommendations based on past purchases or browsing behavior.
                 </li>
                 <li>
@@ -195,7 +198,7 @@ const Time3 = () => {
               <p>Key Results:</p>
               <ul className="list-disc ml-10 mt-3">
                 <li>
-                  78% of respondents rated design aesthetics as a key factor in
+                  74% of respondents rated design aesthetics as a key factor in
                   their decision to shop from a site.
                 </li>
                 <li>
@@ -209,7 +212,451 @@ const Time3 = () => {
               </ul>
             </div>
           </div>
+          {/* ============================================================================================================= */}
+          <div className="py-4 ml-2 mt-10">
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              Primary Research Insights:
+            </p>
+            <div className="text-sm p-5 md:p-10 font-play ml-32">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div
+                  className="px-5 py-5 mb-3"
+                  style={{
+                    width: "175px",
+                    height: "160px",
+                    backgroundColor: "#A66E69",
+                  }}
+                >
+                  <p className="text-white font-play">
+                    Visuals and Design: A sleek, minimal interface with
+                    high-quality imagery is crucial{" "}
+                  </p>
+                </div>
+                <div
+                  className="px-5 py-5 mb-3"
+                  style={{
+                    width: "175px",
+                    height: "160px",
+                    backgroundColor: "#7F4756",
+                  }}
+                >
+                  <p className="text-white font-play">
+                    Personalization: Many users seek personalized
+                    recommendations and features like wishlists.
+                  </p>
+                </div>
+                <div
+                  className="px-5 py-5 mb-3"
+                  style={{
+                    width: "175px",
+                    height: "160px",
+                    backgroundColor: "#542641",
+                  }}
+                >
+                  <p className="text-white font-play">
+                    Checkout Experience: A transparent, step-by-step checkout
+                    process with clear options
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ================================================================================================================= */}
+          <div className="py-4 ml-2 mt-10 mr-36">
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              Secondary Research 🧐
+            </p>
+            <p className="text-white font-play ml-14 mt-3">
+              <span className="font-bold">Objective:</span>To analyze industry
+              trends, existing best practices, and competitor approaches in the
+              online luxury jewelry space.
+            </p>
+          </div>
+          <div className="py-4 ml-2 mt-10">
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              Industry Reports
+            </p>
+            <p className="text-white font-play ml-14 mt-3 mr-36">
+              Analyzed reports from McKinsey & Company and Statista on trends in
+              the luxury e-commerce sector and understood that, the online
+              luxury goods market has seen steady growth, with high-end jewelry
+              being a major contributor. Brands with sleek, easy-to-navigate
+              websites are seeing higher conversion rates. Consumers expect
+              seamless, multi-device experiences (desktop, mobile, tablet) and
+              value transparency in pricing and return policies.
+            </p>
+          </div>
+          {/* =============================================================================== */}
+          <div className="py-4 ml-2 mt-10">
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              Competitor Analysis
+            </p>
+            <p className="text-white font-play ml-14 mt-3 mr-36">
+              It is very important to choose the right competition. As i am
+              aiming for a luxury and sophisticated website i chose these luxury
+              brands.
+            </p>
+            <div className="flex justify-center items-center mt-5 p-5">
+              <img src={timefe} alt="Design Concept Image" className="h-dvh" />
+            </div>
+            <ul className=" text-white font-play list-disc ml-14 mt-5 mr-36">
+              <li>
+                Tiffany & Co. and Cartier focus heavily on the visual and luxury
+                aspects, but they lack several user-centric features such as
+                personalized recommendations, mini carts, and coupon options.
+              </li>
+              <li>
+                Pandora offers more user-friendly options such as product
+                recommendations and delivery time estimates, but it is less
+                focused on minimalism, which Timeless aims to incorporate for a
+                more high-end feel.
+              </li>
+            </ul>
+          </div>
+          {/* =================================================================================== */}
+          <div className="py-4  mt-10">
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              User Behavior Studies
+            </p>
+            <p className="text-white font-play ml-14 mt-3 mr-36">
+              Studies from Baymard Institute on e-commerce usability sa that
+              Cart abandonment rates are high, with complex checkout processes
+              being a key reason and Features like mini carts and easy access to
+              product details can significantly reduce friction in the user
+              journey.
+            </p>
+          </div>
+          <div className="py-4 ml-2 mt-10">
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              Secondary Research Insights:
+            </p>
+            <div className="text-sm p-5 md:p-10 font-play ml-32">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div
+                  className="px-5 py-5 mb-3"
+                  style={{
+                    width: "175px",
+                    height: "160px",
+                    backgroundColor: "#A66E69",
+                  }}
+                >
+                  <p className="text-white font-play">
+                    Design Trends: Minimalism is a consistent theme across
+                    luxury brands
+                  </p>
+                </div>
+                <div
+                  className="px-5 py-5 mb-3"
+                  style={{
+                    width: "175px",
+                    height: "160px",
+                    backgroundColor: "#7F4756",
+                  }}
+                >
+                  <p className="text-white font-play">
+                    Personalization Opportunities: There is a gap in many
+                    high-end websites when it comes to personalized shopping
+                    experiences.
+                  </p>
+                </div>
+                <div
+                  className="px-5 py-5 mb-3"
+                  style={{
+                    width: "175px",
+                    height: "160px",
+                    backgroundColor: "#542641",
+                  }}
+                >
+                  <p className="text-white font-play">
+                    User Friction in Checkout: Simplifying the checkout process,
+                    reducing steps improve conversion rates.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        {/* ===================================================================================== */}
+        <div className="ml-32 mt-16 mr-24">
+          <div className="relative flex items-center py-4  ">
+            {/* Small rectangle */}
+            <div
+              className="w-[9px] h-[59px] bg-[#C19162]"
+              style={{ position: "relative" }}
+            ></div>
+
+            {/* Text beside the rectangle */}
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              Architecture
+            </p>
+          </div>
+          <div className="py-4  mt-10">
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              User journey map
+            </p>
+            <p className="text-white font-play ml-14 mt-3 mr-36">
+              Understanding how users interact with the website at different
+              stages is vital for improving the experience. Here's a detailed
+              user journey map for Timeless:
+            </p>
+          </div>
+          <div className="flex justify-center items-center mt-5 p-5">
+            <img src={timeuj} alt="Design Concept Image" className="w-3/4" />
+          </div>
+        </div>
+        {/* ==================================================================================== */}
+        <div className="ml-32 mt-14 ">
+          <div className="relative flex items-center py-4  ">
+            {/* Small rectangle */}
+            <div
+              className="w-[9px] h-[59px] bg-[#C19162]"
+              style={{ position: "relative" }}
+            ></div>
+
+            {/* Text beside the rectangle */}
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+              Prioritized Features to Incorporate
+            </p>
+          </div>
+          <p className=" font-play text-white ml-16 tracking-wider">
+            Based on research and user journey analysis, the following features
+            were prioritized for Timeless:
+          </p>
+          <ul className="list-decimal list-outside pl-5  ml-20 mt-4 mr-52 tracking-widest">
+            <li className="text-white">Clear Navigation</li>
+            <li className="text-white">Minimal Filters</li>
+            <li className="text-white">Personalized Recommendations</li>
+            <li className="text-white">Mini Cart</li>
+            <li className="text-white">Gift Wrap and Delivery Instructions</li>
+            <li className="text-white">Delivery Estimator</li>
+            <li className="text-white">Bestseller Alerts</li>
+            <li className="text-white">Hidden Details on Product Pages</li>
+            <li className="text-white">Coupon and Discount Options</li>
+          </ul>
+        </div>
+        {/* ================================================================================================== */}
+        <div className="ml-32 mr-44 mt-10 ">
+          <div className="mr-52">
+            <div className="relative flex items-center py-4  ">
+              {/* Small rectangle */}
+              <div
+                className="w-[9px] h-[59px] bg-[#C19162]"
+                style={{ position: "relative" }}
+              ></div>
+
+              {/* Text beside the rectangle */}
+              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+                UI Design Process
+              </p>
+            </div>
+
+            <ul className=" list-outside pl-5 ml-14 mt-4 tracking-widest ">
+              <p className="text-white mb-5">
+                <span className="text-[#C94F60] font-extrabold">
+                  Minimalism with Focus:
+                </span>
+                &nbsp;The focus remained on showcasing the jewelry. The clean,
+                minimalistic layout was intentional to highlight the luxury of
+                the products. Hidden details on product pages maintained the
+                sleek aesthetic, contributing to a more engaging, less cluttered
+                experience.
+              </p>
+              <p className="text-white mb-5">
+                <span className="text-[#C94F60] font-extrabold">
+                  Familiar Navigation:
+                </span>
+                &nbsp;Following industry standards for e-commerce navigation
+                ensures that users can easily find what they are looking for.
+                This reduces friction and builds trust.
+              </p>
+              <p className="text-white ">
+                <span className="text-[#C94F60] font-extrabold">
+                  Emotional Design with Personalization:
+                </span>
+                &nbsp;Features like recommendations based on user behavior and
+                wishlist functionalities create a personalized, emotionally
+                resonant shopping experience.
+              </p>
+            </ul>
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest mt-10">
+              Branding
+            </p>
+            <p className="text-white ml-14 mt-3">
+              The name Timeless was chosen to reflect the enduring nature of
+              fine jewelry. Jewelry, especially luxury pieces, is often passed
+              down through generations, symbolizing not just wealth, but legacy,
+              history, and sentiment. The brand aims to represent pieces that
+              stand the test of time in both quality and design.
+            </p>
+            <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest mt-10">
+              Color Scheme
+            </p>
+            <p className="text-white ml-14 mt-3">
+              The color palette for Timeless was carefully selected to evoke a
+              sense of luxury, elegance, and sophistication, aligning with the
+              premium nature of the jewelry showcased on the website. Each color
+              plays a specific role in enhancing the overall aesthetic and user
+              experience.
+            </p>
+          </div>
+          <div className="flex justify-center items-center mt-5 p-5">
+            <img src={timeclse} alt="Design Concept Image" className="h-dvh" />
+          </div>
+        </div>
+        <div className="ml-32 mr-44 mt-10 ">
+          <div className="mr-52">
+            <div className="relative flex items-center py-4  ">
+              {/* Small rectangle */}
+              <div
+                className="w-[9px] h-[59px] bg-[#C19162]"
+                style={{ position: "relative" }}
+              ></div>
+
+              {/* Text beside the rectangle */}
+              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+                Wireframes & Prototyping
+              </p>
+            </div>
+            <p className="text-white ml-16 mt-3">
+              I started with low-fidelity wireframes, gradually refining them
+              based on user feedback. As this is a personal case study i was
+              comforatble using a notepad when it comes to wireframes rather
+              than using any online tool. I use tools when there is a
+              requirement to use them
+            </p>
+            <p className="text-2xl font-semibold font-play text-white ml-16 tracking-widest mt-10">
+              Hi-Fedelity Design
+            </p>
+            <p className="text-white ml-16 mt-3">
+              Once the structure was in place, I moved to high-fidelity mockups.
+            </p>
+          </div>
+        </div>
+        {/* ===================================================================================== */}
+        {/* <div className="mx-20 mt-10 bg-black">
+          <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pb-10">
+            <div className="rounded-lg">
+              <img
+                src={L1}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg">
+              <img
+                src={L2}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+          <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
+            <div className="rounded-lg">
+              <img
+                src={L4}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg">
+              <img
+                src={L5}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+          <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
+            <div className="rounded-lg">
+              <img
+                src={L7}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg">
+              <img
+                src={L8}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+          <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
+            <div className="rounded-lg">
+              <img
+                src={L12}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg">
+              <img
+                src={L13}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </div> */}
+
+        {/* ========================================================================================= */}
+        <div className="ml-32 mr-44 mt-10 ">
+          <div className="mr-52">
+            <div className="relative flex items-center py-4  ">
+              {/* Small rectangle */}
+              <div
+                className="w-[9px] h-[59px] bg-[#C19162]"
+                style={{ position: "relative" }}
+              ></div>
+
+              {/* Text beside the rectangle */}
+              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+                Outcomes and Reflections
+              </p>
+            </div>
+            <p className="text-white ml-16 mt-3">
+              One challenge was maintaining a consistent aesthetic while
+              ensuring usability across all devices. The rich, dark colors
+              required careful contrast management to ensure readability without
+              losing the vintage charm. Another challenge was finding a balance
+              between creative freedom (like the fantasy-driven "mystery box")
+              and keeping the design practical for e-commerce.
+            </p>
+            <p className="text-2xl font-semibold font-play text-white ml-16 tracking-widest mt-10">
+              Challenges & Iterations
+            </p>
+            <p className="text-white ml-20 mt-8">
+              Challenge 1: Achieving balance between minimalism and the luxury
+              feel. Solution: Used high-quality visuals, rich color accents, and
+              minimal UI elements to retain the feeling of elegance without
+              cluttering the interface.
+            </p>
+            <p className="text-white ml-20 mt-8">
+              Challenge 2: Creating a seamless, intuitive checkout process.
+              Solution: Introduced a multi-step, transparent checkout process
+              that highlights progress, with clear options for coupon
+              application, gift wrapping, and delivery estimation.
+            </p>
+            <p className="text-white ml-16 mt-8">
+              The final design of Timeless successfully balances elegance,
+              functionality, and ease of use. By focusing on a user-centered
+              approach, I was able to craft a luxury experience that enhances
+              both the aesthetic and practical aspects of online jewelry
+              shopping. Timeless offers a rich, streamlined journey from
+              browsing to purchase, ensuring that users feel confident, engaged,
+              and satisfied throughout the process.
+            </p>
+            <p className="text-white ml-16 mt-8">
+              The case study not only showcases my ability to create visually
+              appealing and intuitive designs but also highlights my approach
+              towards the design. This holistic process is key to crafting
+              designs that stand out in the competitive e-commerce space while
+              meeting user needs effectively.
+            </p>
+          </div>
+        </div>
+        {/* ====================================================================================================== */}
       </div>
     </div>
   );
