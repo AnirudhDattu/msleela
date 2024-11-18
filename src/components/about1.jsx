@@ -15,7 +15,7 @@ const About1 = () => {
         style={{ backgroundImage: `url(${bgimg})` }} // Replace with your image path
       >
         <div className="w-full md:w-2/5">
-          <div className="text-white w-full  lg:max-w-[610px] py-16 px-16">
+          <div className="text-white w-full mt-10 lg:max-w-[610px] py-16 pr-32">
             <h1 className="text-4xl tracking-widest mb-10 font-neon">
               Hello Stranger!
             </h1>
@@ -45,7 +45,7 @@ const About1 = () => {
             </p>
           </div>
           {/* Experience Section */}
-          <div className="text-white w-full lg:max-w-[610px] pt-10 px-16 pb-20">
+          <div className="text-white w-full lg:max-w-[610px] pt-10 py-16 pr-32">
             <h1 className="text-4xl tracking-widest mb-10 font-neon">
               Experience
             </h1>
@@ -72,7 +72,7 @@ const About1 = () => {
         </div>
         <div>
           {/* AMIWHO Section */}
-          <div className="pt-8 flex items-center text-center justify-center mt-[8rem]">
+          <div className="pt-8 flex items-center text-center justify-center mt-[10rem]">
             <div className="gap-4 text-center text-[5rem]">
               {/* Top Row */}
               <div className="flex ml-10">
@@ -109,7 +109,7 @@ const About1 = () => {
               </div>
             </div>
           </div>
-          <div className="text-white w-full lg:max-w-[560px] mt-24">
+          <div className="text-white w-full lg:max-w-[560px] mt-24 ml-10">
             <p className="text-lg mb-8 tracking-widest leading-8 font-sansation opacity-80">
               I design from a place of curiosity and connection. Whether it’s
               turning a sunset into a palette or finding the perfect layout in
@@ -122,7 +122,7 @@ const About1 = () => {
               experiences into intuitive, impactful products.
             </p>
           </div>
-          <div className="text-white w-full lg:max-w-[560px] mt-32">
+          <div className="text-white w-full lg:max-w-[560px] mt-32 ml-10">
             <h1 className="text-4xl tracking-widest mb-10 font-neon">
               What’s my Style?
             </h1>
@@ -172,7 +172,10 @@ const About1 = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#1b1b1b] grid gap-16 px-[12vw] py-[6rem] grid-cols-3">
+      <div
+        className="bg-[#1b1b1b] grid gap-16 px-[12vw] py-[6rem] grid-cols-3"
+        style={{ backgroundImage: `url(${bgimg})` }}
+      >
         <div className="flex flex-col gap-12">
           <div className="flex flex-col gap-4">
             <p className="font-sansation text-white text-[2rem] tracking-widest">
