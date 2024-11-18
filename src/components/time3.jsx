@@ -1,7 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import timefe from "../assets/timefeat.png";
 import timeuj from "../assets/timeuj.png";
 import timeclse from "../assets/timeclsc.png";
+import T1 from "../assets/T1.png";
+import T2 from "../assets/T2.png";
+import T3 from "../assets/T3.png";
+import T4 from "../assets/T4.png";
+import T5 from "../assets/T5.png";
+import T6 from "../assets/T6.png";
+import T7 from "../assets/T7.png";
+import T8 from "../assets/T8.png";
+import T9 from "../assets/T9.png";
+import tedbg from "../assets/tedx.png";
+import tedlg from "../assets/tedlg.png";
 
 const Time3 = () => {
   return (
@@ -533,72 +545,81 @@ const Time3 = () => {
           </div>
         </div>
         {/* ===================================================================================== */}
-        {/* <div className="mx-20 mt-10 bg-black">
-          <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pb-10">
+        <div className="mx-32 mt-10 bg-black flex flex-col items-center">
+          <div className="bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pb-10">
             <div className="rounded-lg">
               <img
-                src={L1}
+                src={T1}
                 alt="Design Concept Image"
                 className="w-full h-auto"
               />
             </div>
             <div className="rounded-lg">
               <img
-                src={L2}
-                alt="Design Concept Image"
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
-          <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
-            <div className="rounded-lg">
-              <img
-                src={L4}
-                alt="Design Concept Image"
-                className="w-full h-auto"
-              />
-            </div>
-            <div className="rounded-lg">
-              <img
-                src={L5}
+                src={T2}
                 alt="Design Concept Image"
                 className="w-full h-auto"
               />
             </div>
           </div>
-          <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
+          <div className="bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
             <div className="rounded-lg">
               <img
-                src={L7}
+                src={T3}
                 alt="Design Concept Image"
                 className="w-full h-auto"
               />
             </div>
             <div className="rounded-lg">
               <img
-                src={L8}
-                alt="Design Concept Image"
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
-          <div className=" bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
-            <div className="rounded-lg">
-              <img
-                src={L12}
-                alt="Design Concept Image"
-                className="w-full h-auto"
-              />
-            </div>
-            <div className="rounded-lg">
-              <img
-                src={L13}
+                src={T4}
                 alt="Design Concept Image"
                 className="w-full h-auto"
               />
             </div>
           </div>
-        </div> */}
+          <div className="bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
+            <div className="rounded-lg">
+              <img
+                src={T5}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg">
+              <img
+                src={T6}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+          <div className="bg-black grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pt-20 pb-20">
+            <div className="rounded-lg">
+              <img
+                src={T7}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="rounded-lg">
+              <img
+                src={T8}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+          <div className="bg-black w-full flex justify-center items-center pt-20 pb-20">
+            <div className="rounded-lg">
+              <img
+                src={T9}
+                alt="Design Concept Image"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
 
         {/* ========================================================================================= */}
         <div className="ml-32 mr-44 mt-10 ">
@@ -656,10 +677,99 @@ const Time3 = () => {
             </p>
           </div>
         </div>
+
+        {/* ====================================================================================================== */}
+
+        <div className="bg-black mt-28 pb-20">
+          <div className="bg-black py-10 text-center mb-10">
+            <p className="text-white text-xl font-bold font-play sm:text-3xl tracking-[0.25em]">
+              More Like This
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 p-8 justify-center mx-auto transition max-w-screen-lg mt-10">
+            {/* Second Card */}
+            <div className="bg-[#151515] w-[400px]  text-white px-2 py-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+              {/* Top Image */}
+              <div className="flex  justify-center">
+                <img
+                  src={tedbg}
+                  alt="Top Image"
+                  className="w-[330px] h-58 object-cover mt-3 mb-4 " // Adjusted to make it larger
+                />
+              </div>
+
+              {/* Middle Image */}
+              <div className="flex  justify-center">
+                <img
+                  src={tedlg}
+                  alt="Middle Image"
+                  className="w-[180px] h-30 object-cover mt-8 " // Adjusted to match the height
+                />
+              </div>
+
+              {/* Text Section */}
+              <div className="mt-5 text-sm sm:text-base lg:text-lg text-center font-play tracking-wider text-[#EBD1FF]">
+                <p>
+                  University Project | Real time, UI Design, Testing, Responsive
+                  Design
+                </p>
+              </div>
+
+              {/* Button Section */}
+              <div className="mt-7 mb-3 text-center">
+                <Link to="/TedxBMU">
+                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                    View
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            {/* Second Card */}
+            <div className="bg-[#151515] w-[400px] text-white  p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+              {/* Top Image */}
+              <div className="flex  justify-center">
+                <img
+                  src={jl}
+                  alt="Top Image"
+                  className="w-[330px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
+                />
+              </div>
+
+              {/* Middle Image */}
+              <div className="flex  justify-center">
+                <img
+                  src={tmls}
+                  alt="Middle Image"
+                  className="w-[200px] h-30 object-cover mt-11" // Adjusted to match the height
+                />
+              </div>
+
+              {/* Text Section */}
+              <div className="tracking-wider text-sm text-center sm:text-base lg:text-lg font-play mt-8 mb-7 text-[#EBD1FF]">
+                <p>
+                  Internship Case study | E-Commerce, UX Process, Visual Design,
+                  Color Guide
+                </p>
+              </div>
+
+              {/* Button Section */}
+              <div className="mt-6 text-center">
+                <Link to="/Timeless">
+                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1 mb-4  border-2 border-white text-sm sm:text-base lg:text-lg">
+                    View
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* ====================================================================================================== */}
       </div>
     </div>
   );
 };
+import jl from "../assets/jule.png";
+import tmls from "../assets/timeless.png";
 
 export default Time3;

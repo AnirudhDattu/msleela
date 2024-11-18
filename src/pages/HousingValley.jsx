@@ -3,6 +3,9 @@ import Footer from "../components/footer";
 import Housing from "../assets/Housing.png";
 import FirstImage from "../assets/Home-1.png";
 import React, { useEffect } from "react";
+import T1 from "../assets/hvs1.png";
+import T2 from "../assets/hvs2.png";
+import T3 from "../assets/hvs3.png";
 
 const HousingValley = () => {
   useEffect(() => {
@@ -85,7 +88,9 @@ const HousingValley = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center py-24 h-screen bg-[#101010]">
+
+      {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */}
+      <div className="flex flex-col items-center py-24 h-screen ">
         {/* Centered Image */}
         <img
           src={FirstImage}
@@ -164,7 +169,7 @@ const HousingValley = () => {
             Data Collection
           </p>
         </div>
-        <div className="ml-48 text-white">
+        <div className="ml-48 mr-32 text-white">
           <p className="mb-4">
             For Housing Valley, the following qualitative data collection
             methods were used to deeply understand user needs and behaviors:
@@ -205,7 +210,7 @@ const HousingValley = () => {
           </p>
         </div>
 
-        <div className="ml-48 text-white">
+        <div className="ml-48 mr-32 text-white">
           <ol className="text-white ml-4 flex flex-col gap-4 tracking-wider list-disc">
             <li>
               Users’ Priority on Accuracy: Users highly valued accurate house
@@ -240,7 +245,175 @@ const HousingValley = () => {
           </ol>
         </div>
       </div>
+      <div className="relative flex items-center ml-32 mt-16 bg-[#101010]">
+        {/* Small rectangle */}
+        <div
+          className="w-[9px] h-[59px] bg-[#C19162]"
+          style={{ position: "relative" }}
+        ></div>
 
+        {/* Text beside the rectangle */}
+        <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+          Storyboards
+        </p>
+      </div>
+      <div className="mx-32 mt-10 flex flex-col items-center bg-[#101010]">
+        {/* Top Image */}
+        <div className="bg-[#101010] w-full flex justify-center items-center pt-10 pb-10">
+          <div className="w-1/2">
+            <img
+              src={T1}
+              alt="Design Concept Image"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+        {/* Bottom Two Images */}
+        <div className="bg-[#101010] grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 pb-10">
+          <div className="w-full">
+            <img
+              src={T2}
+              alt="Design Concept Image"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+          <div className="w-full">
+            <img
+              src={T3}
+              alt="Design Concept Image"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="relative flex items-center ml-32 mt-16 bg-[#101010]">
+        {/* Small rectangle */}
+        <div
+          className="w-[9px] h-[59px] bg-[#C19162]"
+          style={{ position: "relative" }}
+        ></div>
+
+        {/* Text beside the rectangle */}
+        <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+          Design Principles Analysis (HCI)
+        </p>
+      </div>
+      <div className="ml-32">
+        <p className="text-white ml-16 mr-36 tracking-wider">
+          This analyis is a part of the human computer interaction experiment
+          design. Here me and my team identified the key features and their
+          associated design principles and their significance
+        </p>
+      </div>
+      {/* --------------------------------------------------------------------------------------------------------------------------- */}
+      <div className="py-4 mx-32 mt-10">
+        <div className="text-sm p-5 md:px-10 font-play ml-32">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-1">
+            <div
+              className="flex justify-center items-center px-5 py-5 mb-3"
+              style={{
+                width: "175px",
+                height: "160px",
+                backgroundColor: "#798495",
+              }}
+            >
+              <p className="text-white font-play text-xl text-center">
+                Drag bar in area Affordance, Feedback{" "}
+              </p>
+            </div>
+            <div
+              className="flex justify-center items-center px-5 py-5 mb-3"
+              style={{
+                width: "175px",
+                height: "160px",
+                backgroundColor: "#709F9D",
+              }}
+            >
+              <p className="text-white font-play text-xl text-center">
+                Select Location Constraint
+              </p>
+            </div>
+            <div
+              className="flex justify-center items-center px-5 py-5 mb-3"
+              style={{
+                width: "175px",
+                height: "160px",
+                backgroundColor: "#9AAEA0",
+              }}
+            >
+              <p className="text-white font-play text-xl text-center">
+                Logout Pop up Feedback
+              </p>
+            </div>
+            <div
+              className="flex justify-center items-center px-5 py-5 mb-3"
+              style={{
+                width: "175px",
+                height: "160px",
+                backgroundColor: "#A09081",
+              }}
+            >
+              <p className="text-white font-play text-xl text-center">
+                Like button turning red Feedback
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="pb-4 mx-32 ">
+        <div className="text-sm px-5 pb-5 md:px-10  font-play ml-32">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-1">
+            <div
+              className="flex justify-center items-center px-5 py-5 mb-3"
+              style={{
+                width: "175px",
+                height: "160px",
+                backgroundColor: "#324360",
+              }}
+            >
+              <p className="text-white font-play text-xl text-center">
+                Back Arrow Affordance{" "}
+              </p>
+            </div>
+            <div
+              className="flex justify-center items-center px-5 py-5 mb-3"
+              style={{
+                width: "175px",
+                height: "160px",
+                backgroundColor: "#768484",
+              }}
+            >
+              <p className="text-white font-play text-xl text-center">
+                Email & Password Constraints
+              </p>
+            </div>
+            <div
+              className="flex justify-center items-center px-5 py-5 mb-3"
+              style={{
+                width: "175px",
+                height: "160px",
+                backgroundColor: "#4C5E50",
+              }}
+            >
+              <p className="text-white font-play text-xl text-center">
+                Show password icon Visibility
+              </p>
+            </div>
+            <div
+              className="flex justify-center items-center px-5 py-5 mb-3"
+              style={{
+                width: "175px",
+                height: "160px",
+                backgroundColor: "#564F40",
+              }}
+            >
+              <p className="text-white font-play text-xl text-center">
+                Color change in nav bar Feedback
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
