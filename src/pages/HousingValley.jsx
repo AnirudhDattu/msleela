@@ -10,6 +10,10 @@ import p1 from "../assets/hsps.png";
 import t1 from "../assets/hs11.png";
 import t2 from "../assets/hs12.png";
 import t3 from "../assets/hs13.png";
+import HousingValley1 from "../assets/HousingValley1.png";
+import HousingValley2 from "../assets/HousingValley2.png";
+import HousingValley3 from "../assets/HousingValley3.png";
+import HousingValley4 from "../assets/HousingValley4.png";
 
 const HousingValley = () => {
   useEffect(() => {
@@ -446,6 +450,104 @@ const HousingValley = () => {
           alt="Book"
           className="w-full max-w-[1000px] h-auto object-cover"
         />
+      </div>
+      <div className="my-14 mx-[10.5rem]">
+        <div className="flex flex-wrap justify-between">
+          <div className="relative text-white w-[25rem]">
+            <div className="flex items-center mb-8">
+              <div
+                className="w-[9px] h-[59px] bg-[#C19162]"
+                style={{ position: "relative" }}
+              ></div>
+
+              {/* Text beside the rectangle */}
+              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+                Feedback, iterations with improvement
+              </p>
+            </div>
+            <div className="w-[17rem] ml-14">
+              <p>
+                Issue-1 <span>Date/month: April 2023</span>
+              </p>
+              <p>Duration:4</p>
+              <p>Number of participants: 4 </p>
+              <p>Type of participants: within team members and friends </p>
+              <p>Method of feedback: focus group discussion</p>
+              <p>
+                Type of usability issue encountered: no flexibility in selecting
+                the number of BHK and bathrooms. there are only limited number
+                of options.
+              </p>
+            </div>
+          </div>
+          <img
+            src={HousingValley1}
+            alt="HousingValley1"
+            className="h-[25rem]"
+          />
+        </div>
+        <div className="flex ml-14 mt-24 flex-wrap justify-between">
+          <img
+            src={HousingValley2}
+            alt="HousingValley2"
+            className="h-[25rem]"
+          />
+          <div className="relative text-white w-[17rem]">
+            <p>
+              Issue-2 <span>Date/month: April 2023</span>
+            </p>
+            <p>Duration:3 days</p>
+            <p>Number of participants: 3 </p>
+            <p>Type of participants: Friends </p>
+            <p>Method of feedback: observation</p>
+            <p>
+              Type of usability issue encountered: difficulty in finding the
+              edit profile option
+            </p>
+          </div>
+        </div>
+        <div className="flex ml-14 mt-24 flex-wrap justify-between">
+          <div className="relative text-white w-[17rem]">
+            <p>
+              Issue-3 <span>Date/month: April 2023</span>
+            </p>
+            <p>Duration:3 days</p>
+            <p>Number of participants: 3 </p>
+            <p>Type of participants: Friends, Family </p>
+            <p>Method of feedback: Think Aloud</p>
+            <p>
+              Type of usability issue encountered: confusion in the colour of
+              icons in the navigation bar as it does not match with colour
+              palette
+            </p>
+          </div>
+          <img
+            src={HousingValley3}
+            alt="HousingValley3"
+            className="h-[25rem]"
+          />
+        </div>
+        <div className="flex ml-14 mt-24 flex-wrap justify-between">
+          <img
+            src={HousingValley4}
+            alt="HousingValley4"
+            className="h-[25rem]"
+          />
+          <div className="relative text-white w-[17rem]">
+            <p>
+              Issue-4 <span>Date/month: April 2023</span>
+            </p>
+            <p>Duration:2 days</p>
+            <p>Number of participants: 3 </p>
+            <p>Type of participants: Friends </p>
+            <p>Method of feedback: interviews and observations from users </p>
+            <p>
+              Type of usability issue encountered: Confusion in the filter icon
+              as it is different across pages Improvement: used the same filter
+              icon across all pages
+            </p>
+          </div>
+        </div>
       </div>
       <div className="relative flex items-center ml-32 mt-16">
         {/* Small rectangle */}

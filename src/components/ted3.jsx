@@ -3,8 +3,40 @@ import { Link } from "react-router-dom";
 import bookimg from "../assets/book2.png";
 import thebook from "../assets/thebook.png";
 import L1 from "../assets/lap1.png";
+import Tedx1 from "../assets/Tedx1.png";
+import Tedx2 from "../assets/Tedx2.png";
+import Tedx3 from "../assets/Tedx3.png";
+import Tedx4 from "../assets/Tedx4.png";
+import Tedx5 from "../assets/Tedx5.png";
+import Tedx6 from "../assets/Tedx6.png";
+import Tedx7 from "../assets/Tedx7.png";
+import Tedx8 from "../assets/Tedx8.png";
+import Tedx9 from "../assets/Tedx9.png";
+import MobileTedx1 from "../assets/MobileTedx1.png";
+import MobileTedx2 from "../assets/MobileTedx2.png";
+import MobileTedx3 from "../assets/MobileTedx3.png";
+import MobileTedx4 from "../assets/MobileTedx4.png";
+import MobileTedx5 from "../assets/MobileTedx5.png";
 
 const Ted3 = () => {
+  const tedxImages = [
+    Tedx1,
+    Tedx2,
+    Tedx3,
+    Tedx4,
+    Tedx5,
+    Tedx6,
+    Tedx7,
+    Tedx8,
+    Tedx9,
+  ];
+  const mobileTedxImages = [
+    MobileTedx1,
+    MobileTedx2,
+    MobileTedx3,
+    MobileTedx4,
+    MobileTedx5,
+  ];
   return (
     <div className="bg-black">
       <div className="bg-black pt-20">
@@ -265,6 +297,118 @@ const Ted3 = () => {
             </div>
           </div>
         </div>
+        <div className="relative flex items-center py-4 ml-32  ">
+          {/* Small rectangle */}
+          <div
+            className="w-[9px] h-[59px] bg-[#C19162]"
+            style={{ position: "relative" }}
+          ></div>
+
+          {/* Text beside the rectangle */}
+          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+            Medium Fidelity UI Design
+          </p>
+        </div>
+        <div className="ml-32 mt-8 mr-32 grid grid-cols-2 lg:grid-cols-3 gap-12">
+          {tedxImages.map((el, i) => {
+            const translateClasses = [
+              "translate-y-0",
+              "translate-y-[1rem]",
+              "translate-y-[2rem]",
+            ];
+            const translateClassesX = [
+              "translate-x-0",
+              "translate-x-[2rem]",
+              "translate-x-[4rem]",
+            ];
+            const translateClass = translateClasses[i % 3];
+            const translateClassX = translateClassesX[2 - Math.floor(i / 3)];
+            return (
+              <img
+                className={translateClass + " " + translateClassX}
+                alt={"Tedx " + i}
+                src={el}
+                height={274}
+              />
+            );
+          })}
+        </div>
+        <div className="relative mt-24 flex items-center py-4 ml-32  ">
+          {/* Small rectangle */}
+          <div
+            className="w-[9px] h-[59px] bg-[#C19162]"
+            style={{ position: "relative" }}
+          ></div>
+
+          {/* Text beside the rectangle */}
+          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+            Responsive Design
+          </p>
+        </div>
+        <div className="ml-32 mr-16 justify-center mt-16 flex flex-wrap gap-6">
+          {mobileTedxImages.map((el, i) => {
+            const translateClasses = ["translate-y-0", "translate-y-[-2rem]"];
+            const translateClass = translateClasses[i % 2];
+            return (
+              <img
+                className={translateClass + " h-[25vw]"}
+                alt={"Tedx " + i}
+                src={el}
+                height={100}
+              />
+            );
+          })}
+        </div>
+        <div className="relative mt-24 flex items-center py-4 ml-32  ">
+          {/* Small rectangle */}
+          <div
+            className="w-[9px] h-[59px] bg-[#C19162]"
+            style={{ position: "relative" }}
+          ></div>
+
+          {/* Text beside the rectangle */}
+          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+            Continuous feedback & Iterations
+          </p>
+        </div>
+        <p className="text-white mx-32 mt-8 tracking-widest">
+          While the time constraints limited the full UX process, I incorporated
+          ongoing feedback from the organizing committee and peers. This
+          iterative process helped me make adjustments to the design, ensuring
+          that all essential information was easy to access and the UI remained
+          visually appealing. Despite the absence of formal usability testing,
+          small adjustments based on real-time feedback improved navigation and
+          the clarity of the website&apos;s key features. This continuous loop
+          of feedback allowed me to refine the website to better meet user
+          needs, ensuring it stayed aligned with the event&apos;s goals and user
+          expectations.
+        </p>
+        <div className="relative mt-12 flex items-center py-4 ml-32  ">
+          {/* Small rectangle */}
+          <div
+            className="w-[9px] h-[59px] bg-[#C19162]"
+            style={{ position: "relative" }}
+          ></div>
+
+          {/* Text beside the rectangle */}
+          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider">
+            Challenges
+          </p>
+        </div>
+        <ul className="text-white flex flex-col gap-4 list-disc list-outside mx-32 mt-8 tracking-widest">
+          <li>
+            Time Constraints: The website needed to be designed within a tight
+            timeline, which limited the depth of user testing or iterative
+            design improvements.
+          </li>
+          <li>
+            Minimal UX Process: Due to the time restrictions, I focused more on
+            the UI elements, with limited opportunity to conduct user research
+            or in-depth usability testing. However, the clean, intuitive design
+            mitigated potential UX issues.
+          </li>
+        </ul>
+        <div className="w-[50vw] h-1 mt-24 rounded bg-[#ffffff] opacity-70 mx-auto"></div>
         {/* ------------------------------------------------------------------------next------------------------------------------------------- */}
 
         {/* ---------------------------------------------------------------------------------------------------------------------------------------- */}
@@ -272,8 +416,8 @@ const Ted3 = () => {
         {/* -----------------------------------------------------------------------------------------------------------------------------------------------     */}
 
         {/* =========================================================================================================================== */}
-        <div className="bg-black mt-28 pb-20">
-          <div className="bg-black py-10 text-center mb-10">
+        <div className="bg-black mt-12 pb-20">
+          <div className="bg-black py-10 text-center mb-4">
             <p className="text-white text-xl font-bold font-play sm:text-3xl tracking-[0.25em]">
               More Like This
             </p>
