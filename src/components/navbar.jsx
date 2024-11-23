@@ -108,7 +108,7 @@ const Header = () => {
                   </defs>
                 </svg>
               )}
-              <span className="ml-3 text-xl font-play tracking-widest">
+              <span className="ml-3 hover:text-[#BF81F0] text-xl font-play tracking-widest">
                 Menu
               </span>
             </div>
@@ -207,31 +207,31 @@ const Header = () => {
         <div className="font-play space-y-6 flex flex-col items-center tracking-widest">
           <Link
             to="/"
-            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+            className="block hover:text-[#C38769] hover:decoration-2 "
           >
             HOME
           </Link>
           <Link
             to="/projects"
-            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+            className="block hover:text-[#C38769] hover:decoration-2 "
           >
             PROJECTS
           </Link>
           <Link
             to="/#about"
-            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+            className="block hover:text-[#C38769] hover:decoration-2 "
           >
             ABOUT
           </Link>
           <Link
             to="/#contact"
-            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+            className="block hover:text-[#C38769] hover:decoration-2 "
           >
             CONTACT
           </Link>
           <Link
             to="https://drive.google.com/file/d/1Xd_E5VAKKU2SH8KdCyczU7mTj50Nyfej/view?usp=sharing"
-            className="block hover:text-[#C38769] hover:underline hover:decoration-2 hover:underline-offset-8"
+            className="block hover:text-[#C38769] hover:decoration-2 "
             target="_blank"
           >
             RESUME

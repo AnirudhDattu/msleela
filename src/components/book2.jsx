@@ -94,7 +94,7 @@ const Book2 = () => {
             </li>
           </ul>
         </div>
-        <div className="ml-32 mt-28 h-screen">
+        <div className="ml-32 mt-28 ">
           <div className="relative flex items-center py-4  ">
             {/* Small rectangle */}
             <div
@@ -112,7 +112,7 @@ const Book2 = () => {
             alt="Book"
             className="w-full max-w-[750px] h-auto object-cover ml-52 mt-28"
           />
-          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider mt-28">
+          <p className="text-xl font-semibold font-play text-white ml-14 tracking-wider mt-28">
             🔍 Research & user needs
             <br />
             🏗️ Architecture and UX
@@ -122,7 +122,7 @@ const Book2 = () => {
             💻 Wireframes & Visual UI Design
           </p>
         </div>
-        <div className="ml-32 mt-32 mr-28">
+        <div className="ml-32 mt-20 mr-28">
           <div className="relative flex items-center py-4  ">
             {/* Small rectangle */}
             <div
@@ -393,7 +393,7 @@ const Book2 = () => {
             </p>
           </div>
           <div className="flex justify-center items-center mt-5 p-5">
-            <img src={thebook} alt="Design Concept Image" className="h-lvh" />
+            <img src={thebook} alt="Design Concept Image" className="w-3/4" />
           </div>
         </div>
         {/* -----------------------------------------------------------------------------------------------------------------------------------------------     */}

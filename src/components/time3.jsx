@@ -80,7 +80,7 @@ const Time3 = () => {
             functionality. Below is the breakdown of how the website was
             designed:
           </p>
-          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider mt-9">
+          <p className="text-xl font-semibold font-play text-white ml-14 tracking-wider mt-9">
             🔍 User research and Competitor research
             <br />
             ✅ Designing goals
@@ -229,7 +229,7 @@ const Time3 = () => {
             <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
               Primary Research Insights:
             </p>
-            <div className="text-sm p-5 md:p-10 font-play ml-32">
+            <div className="text-sm p-5 md:p-10 font-play pl-5 mx-44">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div
                   className="px-5 py-5 mb-3"
@@ -239,7 +239,7 @@ const Time3 = () => {
                     backgroundColor: "#A66E69",
                   }}
                 >
-                  <p className="text-white font-play">
+                  <p className="text-white font-play tracking-wider">
                     Visuals and Design: A sleek, minimal interface with
                     high-quality imagery is crucial{" "}
                   </p>
@@ -252,7 +252,7 @@ const Time3 = () => {
                     backgroundColor: "#7F4756",
                   }}
                 >
-                  <p className="text-white font-play">
+                  <p className="text-white font-play tracking-wider">
                     Personalization: Many users seek personalized
                     recommendations and features like wishlists.
                   </p>
@@ -265,7 +265,7 @@ const Time3 = () => {
                     backgroundColor: "#542641",
                   }}
                 >
-                  <p className="text-white font-play">
+                  <p className="text-white font-play tracking-wider">
                     Checkout Experience: A transparent, step-by-step checkout
                     process with clear options
                   </p>
@@ -284,7 +284,7 @@ const Time3 = () => {
               online luxury jewelry space.
             </p>
           </div>
-          <div className="py-4 ml-2 mt-10">
+          <div className="py-4 ml-2">
             <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
               Industry Reports
             </p>
@@ -299,7 +299,7 @@ const Time3 = () => {
             </p>
           </div>
           {/* =============================================================================== */}
-          <div className="py-4 ml-2 mt-10">
+          <div className="py-4 ml-2">
             <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
               Competitor Analysis
             </p>
@@ -309,7 +309,7 @@ const Time3 = () => {
               brands.
             </p>
             <div className="flex justify-center items-center mt-5 p-5">
-              <img src={timefe} alt="Design Concept Image" className="h-dvh" />
+              <img src={timefe} alt="Design Concept Image" className="w-1/2" />
             </div>
             <ul className=" text-white font-play list-disc ml-14 mt-5 mr-36">
               <li>
@@ -342,7 +342,7 @@ const Time3 = () => {
             <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
               Secondary Research Insights:
             </p>
-            <div className="text-sm p-5 md:p-10 font-play ml-32">
+            <div className="text-sm p-5 md:p-10 font-play pl-5 mx-44">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div
                   className="px-5 py-5 mb-3"
@@ -352,34 +352,34 @@ const Time3 = () => {
                     backgroundColor: "#A66E69",
                   }}
                 >
-                  <p className="text-white font-play">
+                  <p className="text-white font-play tracking-wider">
                     Design Trends: Minimalism is a consistent theme across
                     luxury brands
                   </p>
                 </div>
                 <div
-                  className="px-5 py-5 mb-3"
+                  className="px-2 py-3   mb-3"
                   style={{
                     width: "175px",
                     height: "160px",
                     backgroundColor: "#7F4756",
                   }}
                 >
-                  <p className="text-white font-play">
+                  <p className="text-white font-play tracking-wider">
                     Personalization Opportunities: There is a gap in many
                     high-end websites when it comes to personalized shopping
                     experiences.
                   </p>
                 </div>
                 <div
-                  className="px-5 py-5 mb-3"
+                  className="px-3 py-5 mb-3"
                   style={{
                     width: "175px",
                     height: "160px",
                     backgroundColor: "#542641",
                   }}
                 >
-                  <p className="text-white font-play">
+                  <p className="text-white font-play tracking-wider">
                     User Friction in Checkout: Simplifying the checkout process,
                     reducing steps improve conversion rates.
                   </p>
@@ -512,7 +512,7 @@ const Time3 = () => {
             </p>
           </div>
           <div className="flex justify-center items-center mt-5 p-5">
-            <img src={timeclse} alt="Design Concept Image" className="h-dvh" />
+            <img src={timeclse} alt="Design Concept Image" className="w-2/3" />
           </div>
         </div>
         <div className="ml-32 mr-44 mt-10 ">
@@ -622,7 +622,7 @@ const Time3 = () => {
         </div>
 
         {/* ========================================================================================= */}
-        <div className="ml-32 mr-44 mt-10 ">
+        <div className="ml-32 mr-32 mt-10 ">
           <div className="mr-52">
             <div className="relative flex items-center py-4  ">
               {/* Small rectangle */}
