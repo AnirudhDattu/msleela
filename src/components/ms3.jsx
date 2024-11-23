@@ -73,7 +73,7 @@ const Ms3 = () => {
               Design Process
             </p>
           </div>
-          <p className="text-2xl font-semibold font-play text-white ml-14 tracking-wider mt-9">
+          <p className="text-xl font-semibold font-play text-white ml-14 tracking-wider mt-3">
             🔍 Discover
             <br />
             📝 Research & user needs
@@ -217,7 +217,7 @@ const Ms3 = () => {
         </div>
         {/* =========================================================================================================================== */}
 
-        <div className=" my-20 flex flex-col md:flex-row items-center md:justify-center md:items-center gap-8 max-w-screen-lg mx-auto p-4 md:px-8">
+        <div className=" my-20 flex flex-col md:flex-row items-center md:justify-center md:items-center gap-8 max-w-screen-xl mx-auto p-4 md:px-8">
           <img
             src={up3}
             alt="Responsive Image"
@@ -237,25 +237,19 @@ const Ms3 = () => {
         </div>
 
         {/* =========================================================================================================================== */}
-        <div className=" my-20 flex flex-col md:flex-row items-start md:justify-center md:items-start gap-4 max-w-screen-lg mx-auto p-4 md:px-8">
+        <div className=" my-20 flex flex-col md:flex-row items-start md:justify-center md:items-start gap-4 max-w-screen-xl mx-auto p-4 md:px-8">
           <div className="text-content text-white md:w-1/2 text-center md:text-left">
             <div className="relative flex items-center py-4  ">
-              {/* Small rectangle */}
-              <div
-                className="w-[9px] h-[59px] bg-[#C19162]"
-                style={{ position: "relative" }}
-              ></div>
-
               {/* Text beside the rectangle */}
-              <p className="text-2xl font-semibold font-play text-white ml-14 tracking-widest">
+              <p className="text-2xl font-semibold font-play text-white ml-16 tracking-widest">
                 Competitor Analysis
               </p>
             </div>
             <div className="ml-2">
-              <h1 className="text-white tracking-wider text-xl font-semibold font-play ml-16">
+              <h1 className="text-white tracking-widest text-xl font-semibold font-play ml-16">
                 Key takeaways:
               </h1>
-              <ul className="list-disc list-outside pl-5 mr-12 ml-20 mt-8">
+              <ul className="list-disc list-outside tracking-widest pl-5 mr-12 ml-20 mt-8">
                 <li className="text-white">
                   Calm stands on first in relaxation-oriented content and
                   personalized recommendations
@@ -485,7 +479,7 @@ const Ms3 = () => {
         </div>
         {/* -----------------------------------------------------------------------------------------------------------------------------------------------     */}
         <div>
-          <div className="ml-32 mt-32 mr-28">
+          <div className="ml-32 mt-10 mr-28">
             <div className="relative flex items-center py-4  ">
               {/* Small rectangle */}
               <div
@@ -520,7 +514,7 @@ const Ms3 = () => {
               <img
                 src={up4}
                 alt="Design Concept Image"
-                className="h-lvh rounded-2xl"
+                className="h-full rounded-2xl"
               />
             </div>
           </div>

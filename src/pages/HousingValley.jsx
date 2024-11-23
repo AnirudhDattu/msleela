@@ -157,7 +157,7 @@ const HousingValley = () => {
             Design Process
           </p>
         </div>
-        <div className="ml-48 text-white">
+        <div className="ml-48 text-xl font-semibold font-play text-white tracking-wider mt-3">
           <p>📝 Data collection</p>
           <p>🏗️ Storyboards</p>
           <p>📜 Design Principles Analysis</p>
@@ -423,7 +423,7 @@ const HousingValley = () => {
         </div>
       </div>
       {/* ============================================================================================================== */}
-      <div className="relative flex items-center ml-32">
+      <div className="relative flex items-center ml-32 mt-10">
         {/* Small rectangle */}
         <div
           className="w-[9px] h-[59px] bg-[#C19162]"
@@ -492,7 +492,7 @@ const HousingValley = () => {
             alt="HousingValley2"
             className="h-[25rem]"
           />
-          <div className="relative text-white w-[17rem]">
+          <div className="relative text-white w-[17rem] mr-20 mt-20">
             <p>
               Issue-2 <span>Date/month: April 2023</span>
             </p>
@@ -507,7 +507,7 @@ const HousingValley = () => {
           </div>
         </div>
         <div className="flex ml-14 mt-24 flex-wrap justify-between">
-          <div className="relative text-white w-[17rem]">
+          <div className="relative text-white w-[17rem] ml-20 mt-20">
             <p>
               Issue-3 <span>Date/month: April 2023</span>
             </p>
@@ -533,7 +533,7 @@ const HousingValley = () => {
             alt="HousingValley4"
             className="h-[25rem]"
           />
-          <div className="relative text-white w-[17rem]">
+          <div className="relative text-white w-[17rem] mr-20 mt-20">
             <p>
               Issue-4 <span>Date/month: April 2023</span>
             </p>
@@ -549,7 +549,7 @@ const HousingValley = () => {
           </div>
         </div>
       </div>
-      <div className="relative flex items-center ml-32 mt-16">
+      <div className="relative flex items-center ml-32 mt-20">
         {/* Small rectangle */}
         <div
           className="w-[9px] h-[59px] bg-[#C19162]"
@@ -561,7 +561,7 @@ const HousingValley = () => {
           Usability Testing
         </p>
       </div>
-      <div className="relative flex items-center ml-32 mt-16">
+      <div className="relative flex items-center ml-32 mt-10">
         <p className="text-2xl font-semibold font-play text-white ml-16 tracking-wider">
           Learnability:
         </p>
