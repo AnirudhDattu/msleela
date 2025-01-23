@@ -14,6 +14,7 @@ import HousingValley1 from "../assets/HousingValley1.png";
 import HousingValley2 from "../assets/HousingValley2.png";
 import HousingValley3 from "../assets/HousingValley3.png";
 import HousingValley4 from "../assets/HousingValley4.png";
+import { Link } from "react-router-dom";
 
 const HousingValley = () => {
   useEffect(() => {
@@ -732,9 +733,96 @@ const HousingValley = () => {
           from users on their satisfaction with the application.
         </p>
       </div>
+      {/* =========================================================================================================================== */}
+      <div className="bg-black mt-12 pb-20">
+        <div className="bg-black py-10 text-center mb-4">
+          <p className="text-white text-xl font-bold font-play sm:text-3xl tracking-[0.25em]">
+            More Like This
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 p-8 justify-center mx-auto transition max-w-screen-lg">
+          {/* First Card */}
+          <div className="bg-[#151515] w-[400px]  text-white px-2 py-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+            {/* Top Image */}
+            <div className="flex  justify-center">
+              <img
+                src={bksm}
+                alt="Top Image"
+                className="w-[260px] h-58 object-cover " // Adjusted to make it larger
+              />
+            </div>
+
+            {/* Middle Image */}
+            <div className="flex  justify-center">
+              <img
+                src={book}
+                alt="Middle Image"
+                className="w-[250px] h-30 object-cover mt-16" // Adjusted to match the height
+              />
+            </div>
+
+            {/* Text Section */}
+            <div className="mt-5 text-sm sm:text-base lg:text-lg text-center font-play tracking-wider text-[#EBD1FF]">
+              <p>
+                Internship Case study | E-Commerce, UX Research, Psychology, UI
+              </p>
+            </div>
+
+            {/* Button Section */}
+            <div className="mt-7 text-center">
+              <Link to="/Bookshelf">
+                <button className="hover:border-[#C19162] hover:text-[#C19162] tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                  View
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div className="bg-[#151515] w-[400px] text-white  p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+            {/* Top Image */}
+            <div className="flex  justify-center">
+              <img
+                src={jl}
+                alt="Top Image"
+                className="w-[330px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
+              />
+            </div>
+
+            {/* Middle Image */}
+            <div className="flex  justify-center">
+              <img
+                src={tmls}
+                alt="Middle Image"
+                className="w-[200px] h-30 object-cover mt-8" // Adjusted to match the height
+              />
+            </div>
+
+            {/* Text Section */}
+            <div className="tracking-wider text-sm text-center sm:text-base lg:text-lg font-play mt-5 text-[#EBD1FF]">
+              <p>
+                Internship Case study | E-Commerce, UX Process, Visual Design,
+                Color Guide
+              </p>
+            </div>
+
+            {/* Button Section */}
+            <div className="mt-6 text-center">
+              <Link to="/Timeless">
+                <button className=" hover:border-[#C19162] hover:text-[#C19162] tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1 mb-4  border-2 border-white text-sm sm:text-base lg:text-lg">
+                  View
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
 };
+
+import bksm from "../assets/booksm.png";
+import book from "../assets/bkshlf.png";
+import jl from "../assets/jule.png";
+import tmls from "../assets/timeless.png";
 
 export default HousingValley;

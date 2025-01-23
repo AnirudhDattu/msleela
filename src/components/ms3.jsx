@@ -560,49 +560,50 @@ const Ms3 = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-8 justify-center mx-auto max-w-screen-lg">
             {/* First Card */}
-            <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+            <div className="bg-[#151515] w-[400px]  text-white px-2 py-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
               {/* Top Image */}
               <div className="flex  justify-center">
                 <img
-                  src={hv}
+                  src={bksm}
                   alt="Top Image"
-                  className="w-[300px] h-58 object-cover " // Adjusted to make it larger
+                  className="w-[260px] h-58 object-cover " // Adjusted to make it larger
                 />
               </div>
 
               {/* Middle Image */}
-              <div className="flex mt-10 justify-center">
+              <div className="flex  justify-center">
                 <img
                   src={book}
                   alt="Middle Image"
-                  className="w-[250px] h-30 object-cover mt-8" // Adjusted to match the height
+                  className="w-[250px] h-30 object-cover mt-16" // Adjusted to match the height
                 />
               </div>
 
               {/* Text Section */}
-              <div className="mt-3 text-sm sm:text-base lg:text-lg text-center font-play text-[#EBD1FF]">
+              <div className="mt-5 text-sm sm:text-base lg:text-lg text-center font-play tracking-wider text-[#EBD1FF]">
                 <p>
-                  E-Commerce, UX Research, Psychology, UI Web Design, Responsive
-                  Design
+                  Internship Case study | E-Commerce, UX Research, Psychology,
+                  UI
                 </p>
               </div>
 
               {/* Button Section */}
-              <div className="mt-7 text-center ">
-                <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-                  UX Research
-                </button>
+              <div className="mt-7 text-center">
+                <Link to="/Bookshelf">
+                  <button className="hover:border-[#C19162] hover:text-[#C19162] tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                    View
+                  </button>
+                </Link>
               </div>
             </div>
-
             {/* Second Card */}
-            <div className="bg-[#151515] w-[380px] text-white p-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
+            <div className="bg-[#151515] w-[400px]  text-white px-2 py-6 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white mx-auto">
               {/* Top Image */}
               <div className="flex  justify-center">
                 <img
-                  src={tedbt}
+                  src={tedbg}
                   alt="Top Image"
-                  className="w-[400px] h-58 object-cover mt-3 mb-4" // Adjusted to make it larger
+                  className="w-[330px] h-58 object-cover mt-3 mb-4 " // Adjusted to make it larger
                 />
               </div>
 
@@ -611,22 +612,25 @@ const Ms3 = () => {
                 <img
                   src={tedlg}
                   alt="Middle Image"
-                  className="w-[200px] h-30 object-cover mt-8" // Adjusted to match the height
+                  className="w-[180px] h-30 object-cover mt-8 " // Adjusted to match the height
                 />
               </div>
 
               {/* Text Section */}
-              <div className="mt-2 text-sm text-center sm:text-base lg:text-lg font-play text-[#EBD1FF]">
+              <div className="mt-5 text-sm sm:text-base lg:text-lg text-center font-play tracking-wider text-[#EBD1FF]">
                 <p>
-                  E-Commerce, UX Research, UI Web Design, Branding, Color Guide
+                  University Project | Real time, UI Design, Testing, Responsive
+                  Design
                 </p>
               </div>
 
               {/* Button Section */}
-              <div className="mt-6 text-center">
-                <button className="tracking-widest bg-[#151515] text-white px-10 py-3 sm:px-14 sm:py-4 lg:px-16 lg:py-4 rounded-[1.5rem] shadow-[3px_3px_4px_0px_rgba(140,55,207,1)] border border-white text-sm sm:text-base lg:text-lg">
-                  UX Research
-                </button>
+              <div className="mt-7 mb-3 text-center">
+                <Link to="/TedxBMU">
+                  <button className="hover:border-[#C19162] hover:text-[#C19162] tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                    View
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -636,9 +640,11 @@ const Ms3 = () => {
     </div>
   );
 };
-import hv from "../assets/hv.png";
+import bksm from "../assets/booksm.png";
+
 import book from "../assets/bkshlf.png";
-import tedbt from "../assets/tedbt.png";
+import tedbg from "../assets/tedx.png";
 import tedlg from "../assets/tedlg.png";
+import { Link } from "react-router-dom";
 
 export default Ms3;

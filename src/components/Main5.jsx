@@ -29,7 +29,7 @@ const Main5 = () => {
               An E-commerce web design for books
             </p>
             <Link to="/Bookshelf">
-              <button className="px-14 py-1 mt-8 bg-[#151515] text-white  font-play border-white border-2 text-2xl tracking-widest ">
+              <button className=" hover:border-[#C19162] hover:text-[#C19162] px-14 py-1 mt-8 bg-[#151515] text-white  font-play border-white border-2 text-2xl tracking-widest ">
                 View
               </button>
             </Link>
@@ -47,7 +47,7 @@ const Main5 = () => {
               A mental wellness mobile application design
             </p>
             <Link to="/Mindsync">
-              <button className="px-14 py-1 mt-8 bg-[#151515] text-white border-2 font-play border-white text-2xl tracking-widest">
+              <button className="hover:border-[#C19162] hover:text-[#C19162] px-14 py-1 mt-8 bg-[#151515] text-white border-2 font-play border-white text-2xl tracking-widest">
                 View
               </button>
             </Link>
@@ -62,7 +62,7 @@ const Main5 = () => {
       <div className="flex items-start justify-center h-[300px] mt-10">
         <Link to="/projects">
           <div className="flex justify-start items-center space-x-4 cursor-pointer">
-            <p className="text-white text-2xl tracking-wider font-medium">
+            <p className="text-white text-2xl tracking-wider font-medium hover:text-[#C19162]">
               Check out more
             </p>
             {/* Custom Arrow using a line and SVG */}

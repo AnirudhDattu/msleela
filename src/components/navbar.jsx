@@ -9,9 +9,23 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false); // Assuming you're using state for menu visibility
+  };
+
   const scrollToFooter = () => {
     const footer = document.getElementById("footer");
     footer.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const closeMenuAndScroll = () => {
+    // Close the menu first
+    closeMenu();
+
+    // Add a slight delay before scrolling
+    setTimeout(() => {
+      scrollToFooter();
+    }, 300); // Adjust the delay as needed (in milliseconds)
   };
 
   return (
@@ -218,17 +232,19 @@ const Header = () => {
             PROJECTS
           </Link>
           <Link
-            to="/#about"
+            to="/About"
             className="block hover:text-[#C38769] hover:decoration-2 "
           >
             ABOUT
           </Link>
-          <Link
-            to="/#contact"
+          <button
+            onClick={() => {
+              closeMenuAndScroll();
+            }}
             className="block hover:text-[#C38769] hover:decoration-2 "
           >
             CONTACT
-          </Link>
+          </button>
           <Link
             to="https://drive.google.com/file/d/1Xd_E5VAKKU2SH8KdCyczU7mTj50Nyfej/view?usp=sharing"
             className="block hover:text-[#C38769] hover:decoration-2 "

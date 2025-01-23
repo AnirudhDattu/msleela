@@ -343,7 +343,7 @@ const Ted3 = () => {
               {/* Button Section */}
               <div className="mt-7 text-center">
                 <Link to="/Bookshelf">
-                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
+                  <button className="hover:border-[#C19162] hover:text-[#C19162] tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1  border-2 border-white text-sm sm:text-base lg:text-lg">
                     View
                   </button>
                 </Link>
@@ -379,7 +379,7 @@ const Ted3 = () => {
               {/* Button Section */}
               <div className="mt-6 text-center">
                 <Link to="/Timeless">
-                  <button className="tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1 mb-4  border-2 border-white text-sm sm:text-base lg:text-lg">
+                  <button className="hover:border-[#C19162] hover:text-[#C19162] tracking-widest bg-[#151515] text-white px-8 py-1 sm:px-14 sm:py-4 lg:px-10 lg:py-1 mb-4  border-2 border-white text-sm sm:text-base lg:text-lg">
                     View
                   </button>
                 </Link>
